@@ -1,0 +1,9 @@
+services:
+  touchlabs-site:
+    image: nginx:alpine
+    container_name: touchlabs-site
+    ports:
+      - "8084:80"
+    volumes:
+      - ./public:/usr/share/nginx/html:ro
+    restart: unless-stopped

@@ -1,0 +1,32 @@
+---
+description: SEO Rules
+globs:
+*.html
+alwaysApply: true
+---
+
+# SEO
+
+Ogni pagina deve avere:
+
+Title
+
+Meta Description
+
+Open Graph
+
+Heading ordinati
+
+Alt text
+
+Link interni
+
+HTML semantico
+
+Schema.org quando utile
+
+Scrivere sempre prima per le persone.
+
+Poi per Google.
+
+Mai keyword stuffing.

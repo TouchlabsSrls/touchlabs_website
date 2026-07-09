@@ -1,0 +1,39 @@
+---
+description: Design System
+globs:
+alwaysApply: true
+---
+
+# Design System
+
+Utilizzare esclusivamente componenti coerenti.
+
+Riutilizzare sempre:
+
+Navbar
+
+Hero
+
+Buttons
+
+Cards
+
+Portfolio
+
+CTA
+
+Footer
+
+Mai creare componenti diversi senza una motivazione.
+
+Utilizzare molto spazio bianco.
+
+Le sezioni devono respirare.
+
+Mai comprimere il layout.
+
+Le immagini devono sembrare appartenere allo stesso progetto.
+
+Ogni nuova pagina deve utilizzare gli stessi componenti delle pagine precedenti.
+
+La coerenza è più importante della varietà.

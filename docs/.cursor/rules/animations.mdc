@@ -1,0 +1,43 @@
+---
+description: Motion Design
+globs:
+alwaysApply: true
+---
+
+# Motion
+
+Le animazioni devono ricordare Apple.
+
+Molto lente.
+
+Molto eleganti.
+
+Mai:
+
+bounce
+
+flash
+
+shake
+
+rotate
+
+zoom aggressivi
+
+Consentiti:
+
+fade
+
+opacity
+
+translate
+
+scale
+
+floating
+
+parallax leggerissimo
+
+Le animazioni devono migliorare la UX.
+
+Mai distrarre.

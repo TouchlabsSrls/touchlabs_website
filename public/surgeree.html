@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Surgeree — Touchlabs | Formazione chirurgica immersiva e Spatial Computing</title>
+  <meta name="description" content="Case study Surgeree: piattaforma XR e AI per formazione chirurgica, visualizzazione DICOM immersiva e supporto in sala operatoria con Apple Vision Pro e Meta Quest." />
+  <meta property="og:title" content="Surgeree — Touchlabs" />
+  <meta property="og:description" content="Extended Reality e Intelligenza Artificiale nel mondo chirurgico: formazione, pianificazione, collaborazione e supporto durante gli interventi." />
+  <meta property="og:type" content="article" />
+  <meta property="og:locale" content="it_IT" />
+  <meta property="og:url" content="https://www.touchlabs.it/surgeree.html" />
+  <meta property="og:site_name" content="Touchlabs" />
+  <meta property="og:image" content="https://www.touchlabs.it/assets/img/projects/surgeree/hero.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="canonical" href="https://www.touchlabs.it/surgeree.html" />
+  <link rel="icon" href="/assets/img/logos/favicon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="/assets/img/logos/apple-touch-icon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/assets/css/style.css" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Surgeree",
+    "description": "Piattaforma di Spatial Computing e AI per formazione chirurgica immersiva e supporto avanzato in sala operatoria.",
+    "url": "https://www.touchlabs.it/surgeree.html",
+    "image": "https://www.touchlabs.it/assets/img/projects/surgeree/hero.jpg",
+    "creator": {
+      "@type": "Organization",
+      "name": "Touchlabs",
+      "url": "https://www.touchlabs.it"
+    },
+    "about": ["Chirurgia", "Spatial Computing", "Extended Reality", "Intelligenza Artificiale"]
+  }
+  </script>
+</head>
+<body>
+
+  <a class="skip-link" href="#main-content">Vai al contenuto principale</a>
+
+  <header class="navbar" id="navbar">
+    <div class="container navbar__inner">
+      <a href="/" class="navbar__logo" aria-label="Touchlabs — Home"><img src="/assets/img/logos/logo-white.png" alt="" width="171" height="29" class="brand-logo" decoding="async" /></a>
+      <nav class="navbar__nav" id="nav-menu" aria-label="Navigazione principale">
+        <ul class="navbar__list">
+          <li><a href="/" class="navbar__link">Home</a></li>
+          <li><a href="/chi-siamo.html" class="navbar__link">Chi siamo</a></li>
+          <li><a href="/servizi.html" class="navbar__link">Servizi</a></li>
+          <li><a href="/portfolio.html" class="navbar__link navbar__link--active" aria-current="page">Portfolio</a></li>
+          <li><a href="/innovation-hub.html" class="navbar__link">Innovation Hub</a></li>
+          <li><a href="/contatti.html" class="navbar__link">Contatti</a></li>
+        </ul>
+      </nav>
+      <a href="/contatti.html" class="btn btn--primary btn--sm navbar__cta">Parliamo del tuo progetto</a>
+      <button class="navbar__toggle" id="nav-toggle" aria-label="Apri menu" aria-expanded="false" aria-controls="nav-menu">
+        <span class="navbar__toggle-bar"></span>
+        <span class="navbar__toggle-bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <!-- Hero 50/50 -->
+    <section class="page-hero page-hero--split section-layers" aria-labelledby="hero-title">
+      <div class="section-layers__bg page-hero__bg" aria-hidden="true">
+        <div class="visual-layer visual-layer--light visual-layer--subtle" style="--layer-image: url('/assets/img/lights/glow-hero.svg')"></div>
+      </div>
+      <div class="container page-hero__split">
+        <div class="page-hero__content">
+          <a href="/portfolio.html#surgeree" class="link-arrow project-detail__back animate-in">Torna al portfolio</a>
+          <ul class="case-badges animate-in" aria-label="Settore e competenze">
+            <li class="case-badge">Medicale</li>
+            <li class="case-badge">Spatial Computing</li>
+            <li class="case-badge">Apple Vision Pro</li>
+            <li class="case-badge">XR</li>
+            <li class="case-badge">AI</li>
+          </ul>
+          <p class="eyebrow animate-in">Case study</p>
+          <h1 id="hero-title" class="page-hero__title animate-in">Formazione chirurgica immersiva e supporto avanzato alla sala operatoria</h1>
+          <p class="page-hero__subtitle animate-in">Surgeree è una piattaforma sviluppata per portare Extended Reality e Intelligenza Artificiale all'interno del mondo chirurgico, migliorando formazione, pianificazione, collaborazione e supporto durante gli interventi.</p>
+        </div>
+        <figure class="page-hero__visual animate-in">
+          <img
+            src="/assets/img/projects/surgeree/hero.jpg"
+            alt="Chirurgo con visore immersivo in sala operatoria — piattaforma Surgeree"
+            width="1600"
+            height="1200"
+            loading="eager"
+          />
+        </figure>
+      </div>
+    </section>
+
+    <!-- La sfida -->
+    <section class="section section--white" aria-labelledby="challenge-title">
+      <div class="container">
+        <header class="section-header reveal">
+          <p class="eyebrow">La sfida</p>
+          <h2 id="challenge-title" class="section-header__title">Quando l'informazione distrae dal paziente</h2>
+        </header>
+        <div class="project-narrative reveal">
+          <div class="project-narrative__content">
+            <p>In sala operatoria le informazioni critiche non mancano mai — ma sono sparse. Imaging diagnostico su un monitor, endoscopia su un altro, navigazione su uno schermo laterale, telecamere e strumenti che aggiungono ancora segnali da seguire. Il chirurgo deve continuare a operare con le mani libere, mantenendo il focus sul campo operatorio, mentre la testa si gira verso display distanti e interfacce pensate per altri contesti.</p>
+            <p>Parallelamente, la formazione su procedure complesse resta legata a modelli costosi e poco replicabili: simulazioni fisiche, sale dedicate, tutoraggio one-to-one. La collaborazione tra specialisti — in sala o da remoto — richiede strumenti che permettano di vedere la stessa cosa, nello stesso momento, senza appesantire il flusso clinico.</p>
+            <p>Il punto di partenza non era «aggiungere un visore», ma ripensare come dati, immagini e competenze possono convivere nel campo visivo del chirurgo senza moltiplicare le distrazioni.</p>
+          </div>
+          <figure class="project-narrative__visual">
+            <img
+              src="/assets/img/projects/surgeree/gallery-monitors.jpg"
+              alt="Chirurgo circondato da monitor in sala operatoria — il problema della visualizzazione frammentata"
+              width="1400"
+              height="1050"
+              loading="lazy"
+            />
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- L'analisi -->
+    <section class="section section--light" aria-labelledby="analysis-title">
+      <div class="container">
+        <header class="section-header reveal">
+          <p class="eyebrow">L'analisi</p>
+          <h2 id="analysis-title" class="section-header__title">Partire dal workflow, non dalla tecnologia</h2>
+        </header>
+        <div class="project-narrative project-narrative--reverse reveal">
+          <div class="project-narrative__content">
+            <p>Abbiamo osservato il percorso chirurgico nella sua interezza: preparazione del caso, posizionamento in sala, momenti di alta concentrazione e fasi in cui servono consulto e documentazione. Ogni fase ha ritmi, vincoli igienici e modalità di interazione diverse — tocco, voce, sguardo — che un'interfaccia immersiva deve rispettare.</p>
+            <p>L'esperienza utente non poteva essere un porting di software desktop in VR. Serviva un linguaggio spaziale chiaro: dove compaiono le immagini DICOM, come si sovrappongono i feed endoscopici, come un esperto remoto annota un volume 3D senza interrompere l'intervento. Allo stesso tempo, l'integrazione dei dati doveva dialogare con l'ecosistema esistente — apparecchiature di sala, streaming video, formati medici standard.</p>
+            <p>La progettazione immersiva è diventata il filo conduttore: unificare ciò che oggi è frammentato, mantenendo controllo, igiene e familiarità per chi indossa il visore per la prima volta in un contesto reale.</p>
+          </div>
+          <figure class="project-narrative__visual">
+            <img
+              src="/assets/img/projects/surgeree/gallery-dicom.jpg"
+              alt="Visualizzazione DICOM immersiva con controlli spaziali — interfaccia Surgeree"
+              width="1400"
+              height="763"
+              loading="lazy"
+            />
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- La soluzione -->
+    <section class="section section--white" aria-labelledby="solution-title">
+      <div class="container">
+        <header class="section-header reveal">
+          <p class="eyebrow">La soluzione</p>
+          <h2 id="solution-title" class="section-header__title">Un ecosistema immersivo per tutto il ciclo chirurgico</h2>
+        </header>
+        <div class="project-narrative reveal">
+          <div class="project-narrative__content">
+            <p>Surgeree nasce come piattaforma integrata, non come singola funzione. Extended Reality e Intelligenza Artificiale convivono in un ambiente dove il chirurgo visualizza imaging diagnostico, modelli 3D segmentati e feed video in tempo reale — su Apple Vision Pro, Meta Quest e dispositivi compatibili — con un'interfaccia controllata da sguardo, gesti e voce.</p>
+            <p>In sala operatoria la piattaforma si collega alle apparecchiature esistenti: telecamere wireless, C-arm, torri endoscopiche, robotica. L'immagine non resta su uno schermo piatto distante: diventa parte del campo visivo, con profondità e contesto. Per la pianificazione, la segmentazione 3D e le sovrapposizioni pre-operatorie aiutano a «vedere prima di tagliare», riducendo l'incertezza anatomica.</p>
+            <p>Per formazione e collaborazione, Surgeree registra e condivide procedure dal punto di vista del chirurgo, abilita sessioni live con mentor remoti e costruisce percorsi didattici basati su casi reali — dalla simulazione immersiva alla teleassistenza durante l'intervento.</p>
+          </div>
+          <figure class="project-narrative__visual">
+            <img
+              src="/assets/img/projects/surgeree/gallery-overlay.jpg"
+              alt="Sovrimpressione 3D per pianificazione pre-operatoria — Surgeree"
+              width="1400"
+              height="1050"
+              loading="lazy"
+            />
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Surgeree in azione -->
+    <section class="section section--light spatial-demo" aria-labelledby="surgeree-demo-title">
+      <div class="container">
+        <header class="section-header section-header--center reveal">
+          <p class="eyebrow">Surgeree in azione</p>
+          <h2 id="surgeree-demo-title" class="section-header__title">Una piattaforma immersiva pensata per il contesto chirurgico</h2>
+          <p class="section-header__desc">Il video mostra come l'esperienza digitale supporta visualizzazione, formazione e interazione in ambiente immersivo.</p>
+        </header>
+
+        <div class="spatial-demo__video reveal">
+          <div class="showreel-frame showreel-frame--wide showreel-frame--editorial" data-showreel>
+            <div class="showreel-frame__glow" aria-hidden="true"></div>
+            <div class="showreel-frame__inner">
+              <video
+                class="showreel-frame__video"
+                poster="/assets/img/projects/surgeree/surgeree-video-poster.jpg"
+                autoplay
+                muted
+                loop
+                playsinline
+                preload="metadata"
+                width="1280"
+                height="720"
+                aria-label="Video — Surgeree, piattaforma immersiva per il contesto chirurgico"
+              >
+                <source src="/assets/video/surgeree/surgeree-demo.webm" type="video/webm" />
+                <source src="/assets/video/surgeree/surgeree-demo-compressed.mp4" type="video/mp4" />
+              </video>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Funzionalità principali -->
+    <section class="section section--light" aria-labelledby="features-title">
+      <div class="container">
+        <header class="section-header section-header--center reveal">
+          <p class="eyebrow">Piattaforma</p>
+          <h2 id="features-title" class="section-header__title">Le funzionalità principali</h2>
+        </header>
+        <div class="grid grid--4 project-features reveal">
+          <article class="feature-card project-feature">
+            <h3 class="feature-card__title">Visualizzazione DICOM immersiva</h3>
+            <p class="feature-card__desc">Serie TC e RM visualizzate in spazio tridimensionale, navigabili senza distogliere lo sguardo dal campo operatorio.</p>
+          </article>
+          <article class="feature-card project-feature">
+            <h3 class="feature-card__title">Segmentazione 3D</h3>
+            <p class="feature-card__desc">Modelli anatomici estratti dall'imaging diagnostico, pronti per pianificazione, sovrapposizione e discussione del caso.</p>
+          </article>
+          <article class="feature-card project-feature">
+            <h3 class="feature-card__title">Extended Vision</h3>
+            <p class="feature-card__desc">Feed endoscopici e video chirurgici in alta definizione, integrati con imaging e segmentazioni in un'unica visione estesa.</p>
+          </article>
+          <article class="feature-card project-feature">
+            <h3 class="feature-card__title">Intelligenza Artificiale</h3>
+            <p class="feature-card__desc">Supporto alla lettura dell'imaging, all'analisi dei dati intraoperatori e all'arricchimento del flusso decisionale.</p>
+          </article>
+          <article class="feature-card project-feature">
+            <h3 class="feature-card__title">Reporting vocale</h3>
+            <p class="feature-card__desc">Documentazione del caso tramite comandi vocali, per ridurre interruzioni e mantenere le mani libere.</p>
+          </article>
+          <article class="feature-card project-feature">
+            <h3 class="feature-card__title">Collaborazione remota</h3>
+            <p class="feature-card__desc">Connessione in tempo reale con mentor e specialisti, con annotazioni condivise su immagini e volumi 3D.</p>
+          </article>
+          <article class="feature-card project-feature">
+            <h3 class="feature-card__title">Training immersivo</h3>
+            <p class="feature-card__desc">Registrazione, live streaming e percorsi formativi da casi reali — dalla simulazione alla sala operatoria.</p>
+          </article>
+          <article class="feature-card project-feature">
+            <h3 class="feature-card__title">Connessione con dispositivi di sala</h3>
+            <p class="feature-card__desc">Integrazione wireless con telecamere, C-arm, endoscopia e strumentazione robotica già presenti in sala.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Il risultato -->
+    <section class="section section--dark section-layers" aria-labelledby="result-title">
+      <div class="section-layers__bg" aria-hidden="true">
+        <div class="visual-layer visual-layer--bg visual-layer--subtle" style="--layer-image: url('/assets/img/backgrounds/mesh-soft.svg')"></div>
+      </div>
+      <div class="container">
+        <header class="section-header section-header--center reveal">
+          <p class="eyebrow">Il risultato</p>
+          <h2 id="result-title" class="section-header__title">Benefici che cambiano il modo di operare e formare</h2>
+        </header>
+        <div class="project-results reveal">
+          <div class="project-results__item">
+            <strong class="project-results__title">Maggiore concentrazione</strong>
+            <p class="project-results__text">Le informazioni rientrano nel campo visivo del chirurgo, riducendo i movimenti verso monitor distanti e le distrazioni durante l'intervento.</p>
+          </div>
+          <div class="project-results__item">
+            <strong class="project-results__title">Comprensione anatomica più chiara</strong>
+            <p class="project-results__text">Imaging, segmentazioni e sovrapposizioni 3D offrono una lettura spaziale del caso che i display piatti non riescono a trasmettere.</p>
+          </div>
+          <div class="project-results__item">
+            <strong class="project-results__title">Formazione più coinvolgente</strong>
+            <p class="project-results__text">Percorsi immersivi e registrazioni dal punto di vista del chirurgo rendono l'apprendimento più vicino alla pratica reale.</p>
+          </div>
+          <div class="project-results__item">
+            <strong class="project-results__title">Collaborazione multidisciplinare</strong>
+            <p class="project-results__text">Esperti remoti possono seguire, commentare e annotare il caso in tempo reale, senza appesantire il team in sala.</p>
+          </div>
+          <div class="project-results__item">
+            <strong class="project-results__title">Flusso igienico preservato</strong>
+            <p class="project-results__text">Interfacce pensate per il contesto sterile: controllo hands-free e integrazione che limita contatti superflui con hardware esterno.</p>
+          </div>
+          <div class="project-results__item">
+            <strong class="project-results__title">Piattaforma scalabile</strong>
+            <p class="project-results__text">Un unico ecosistema che copre formazione, pianificazione, intraoperatorio e teleassistenza — estendibile a nuovi dispositivi e reparti.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tecnologie -->
+    <section class="section section--white" aria-labelledby="tech-title">
+      <div class="container">
+        <header class="section-header section-header--center reveal">
+          <p class="eyebrow">Stack tecnologico</p>
+          <h2 id="tech-title" class="visually-hidden">Tecnologie utilizzate</h2>
+        </header>
+        <ul class="innovation-lab__tags project-detail__tags reveal" aria-label="Tecnologie utilizzate">
+          <li class="innovation-lab__tag">Apple Vision Pro</li>
+          <li class="innovation-lab__tag">Meta Quest</li>
+          <li class="innovation-lab__tag">Spatial Computing</li>
+          <li class="innovation-lab__tag">Artificial Intelligence</li>
+          <li class="innovation-lab__tag">Computer Vision</li>
+          <li class="innovation-lab__tag">Unity</li>
+          <li class="innovation-lab__tag">DICOM</li>
+          <li class="innovation-lab__tag">3D</li>
+          <li class="innovation-lab__tag">Streaming Video</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Galleria -->
+    <section class="section section--light" aria-labelledby="gallery-title">
+      <div class="container">
+        <header class="section-header section-header--center reveal">
+          <p class="eyebrow">Dal progetto</p>
+          <h2 id="gallery-title" class="section-header__title">Immagini dalla piattaforma</h2>
+        </header>
+        <div class="project-gallery reveal">
+          <figure class="project-gallery__item project-gallery__item--wide">
+            <img src="/assets/img/projects/surgeree/gallery-neurosurgery.jpg" alt="Neurochirurgia immersiva con visore XR in sala operatoria" width="1400" height="788" loading="lazy" />
+          </figure>
+          <figure class="project-gallery__item">
+            <img src="/assets/img/projects/surgeree/gallery-endoscopy.jpg" alt="Extended Vision — integrazione feed endoscopico in XR" width="1400" height="1050" loading="lazy" />
+          </figure>
+          <figure class="project-gallery__item">
+            <img src="/assets/img/projects/surgeree/gallery-segmentation.jpg" alt="Segmentazione 3D da imaging diagnostico" width="1400" height="1050" loading="lazy" />
+          </figure>
+          <figure class="project-gallery__item project-gallery__item--wide">
+            <img src="/assets/img/projects/surgeree/gallery-surgery.jpg" alt="Intervento chirurgico con supporto Surgeree — IRCCS Rizzoli, Bologna" width="1400" height="1050" loading="lazy" />
+          </figure>
+          <figure class="project-gallery__item">
+            <img src="/assets/img/projects/surgeree/gallery-report.jpg" alt="Reporting chirurgico vocale in ambiente immersivo" width="1400" height="1050" loading="lazy" />
+          </figure>
+          <figure class="project-gallery__item">
+            <img src="/assets/img/projects/surgeree/hero.jpg" alt="Spatial Computing in sala operatoria — Surgeree" width="1600" height="1200" loading="lazy" />
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section section--dark cta-section" aria-labelledby="cta-title">
+      <div class="cta-section__bg" aria-hidden="true"></div>
+      <div class="container cta-section__inner reveal">
+        <div class="project-closing">
+          <h2 id="cta-title" class="cta-section__title">Ogni progetto complesso nasce da una sfida reale.</h2>
+          <p>Surgeree rappresenta il nostro modo di lavorare: comprendere il problema, progettare la soluzione e trasformare tecnologie emergenti in strumenti realmente utilizzabili.</p>
+        </div>
+        <div class="cta-section__actions">
+          <a href="/contatti.html" class="btn btn--primary">Parliamo del tuo progetto</a>
+          <a href="/portfolio.html" class="btn btn--secondary">Altri progetti</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <a href="/" class="footer__logo" aria-label="Touchlabs — Home"><img src="/assets/img/logos/logo-white.png" alt="" width="171" height="29" class="brand-logo" decoding="async" /></a>
+          <p class="footer__desc">Software house italiana specializzata in sviluppo custom, AI, Spatial Computing e integrazioni aziendali. Partner tecnologico per aziende che vogliono innovare con concretezza.</p>
+        </div>
+        <nav class="footer__col" aria-label="Servizi">
+          <h3 class="footer__heading">Servizi</h3>
+          <ul class="footer__list">
+            <li><a href="/software-custom.html">Software custom</a></li>
+            <li><a href="/spatial-computing.html">Spatial Computing</a></li>
+            <li><a href="/ai-applicata.html">AI applicata</a></li>
+            <li><a href="/digital-experience.html">Digital Experience</a></li>
+            <li><a href="/servizi.html">Integrazioni ERP</a></li>
+            <li><a href="/servizi.html">Supporto e manutenzione</a></li>
+          </ul>
+        </nav>
+        <nav class="footer__col" aria-label="Azienda">
+          <h3 class="footer__heading">Azienda</h3>
+          <ul class="footer__list">
+            <li><a href="/chi-siamo.html">Chi siamo</a></li>
+            <li><a href="/portfolio.html">Portfolio</a></li>
+            <li><a href="/innovation-hub.html">Innovation Hub</a></li>
+            <li><a href="/contatti.html">Contatti</a></li>
+          </ul>
+        </nav>
+        <div class="footer__col">
+          <h3 class="footer__heading">Contatti</h3>
+          <ul class="footer__list footer__list--contact">
+            <li><a href="mailto:info@touchlabs.it">info@touchlabs.it</a></li>
+            <li>Bologna, Italia</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__copy">&copy; 2026 Touchlabs. Tutti i diritti riservati.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/assets/js/main.js"></script>
+</body>
+</html>

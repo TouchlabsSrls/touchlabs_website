@@ -1,0 +1,28 @@
+---
+description: Coding Rules
+globs:
+*.html
+*.css
+*.js
+alwaysApply: true
+---
+
+# Coding
+
+Prima di scrivere codice verificare se il componente esiste già.
+
+Mai duplicare codice.
+
+Preferire componenti riutilizzabili.
+
+CSS ordinato.
+
+Naming coerente.
+
+JavaScript solo quando realmente necessario.
+
+Preferire CSS.
+
+Ogni commit deve ridurre la complessità.
+
+Mai aumentarla.

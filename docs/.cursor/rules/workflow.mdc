@@ -1,0 +1,50 @@
+---
+description: Cursor Workflow
+alwaysApply: true
+---
+
+# Workflow
+
+Mai costruire dieci pagine insieme.
+
+Procedere così.
+
+1 Analisi
+
+2 Design
+
+3 HTML
+
+4 CSS
+
+5 Responsive
+
+6 Motion
+
+7 Performance
+
+8 Refactoring
+
+9 SEO
+
+10 Review
+
+Mai saltare uno step.
+
+Mai creare nuove pagine se quella corrente non è terminata.
+
+Mai modificare il Design System senza una motivazione.
+
+Ogni componente deve essere riutilizzabile.
+
+Ogni pagina deve sembrare parte dello stesso ecosistema.
+
+Quando hai un dubbio,
+
+scegli sempre:
+
+più semplicità
+
+più eleganza
+
+più chiarezza.
