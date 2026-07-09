@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+Disallow: /configuratori-3d.html
+
+Sitemap: https://www.touchlabs.it/sitemap.xml

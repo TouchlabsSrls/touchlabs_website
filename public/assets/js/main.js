@@ -95,16 +95,145 @@
     );
   }
 
-  /* --- Contact form (static — integration point) --- */
+  /* --- Contact form --- */
   const contactForm = document.getElementById('contact-form');
   if (contactForm) {
+    const submitBtn = contactForm.querySelector('.contact-form__submit');
+    const statusEl = document.getElementById('contact-form-status');
+
+    function setFieldError(fieldName, message) {
+      const field = contactForm.querySelector('[name="' + fieldName + '"]');
+      const errorEl = contactForm.querySelector('[data-error-for="' + fieldName + '"]');
+      if (field) {
+        field.setAttribute('aria-invalid', message ? 'true' : 'false');
+      }
+      if (errorEl) {
+        errorEl.textContent = message || '';
+      }
+    }
+
+    function clearErrors() {
+      contactForm.querySelectorAll('[data-error-for]').forEach(function (el) {
+        el.textContent = '';
+      });
+      contactForm.querySelectorAll('[aria-invalid]').forEach(function (el) {
+        el.removeAttribute('aria-invalid');
+      });
+    }
+
+    function showStatus(message, type) {
+      if (!statusEl) return;
+      statusEl.hidden = false;
+      statusEl.textContent = message;
+      statusEl.classList.remove('contact-form__status--success', 'contact-form__status--error');
+      if (type) {
+        statusEl.classList.add('contact-form__status--' + type);
+      }
+    }
+
+    function validateClient() {
+      clearErrors();
+      let valid = true;
+      const name = contactForm.elements.namedItem('name');
+      const email = contactForm.elements.namedItem('email');
+      const message = contactForm.elements.namedItem('message');
+      const consent = contactForm.elements.namedItem('privacy_consent');
+
+      if (!name || !String(name.value).trim()) {
+        setFieldError('name', 'Inserisci il nome.');
+        valid = false;
+      }
+      if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(String(email.value).trim())) {
+        setFieldError('email', 'Inserisci un indirizzo email valido.');
+        valid = false;
+      }
+      if (!message || !String(message.value).trim()) {
+        setFieldError('message', 'Inserisci un messaggio.');
+        valid = false;
+      }
+      if (!consent || !consent.checked) {
+        setFieldError('privacy_consent', 'È necessario accettare l\'informativa privacy.');
+        valid = false;
+      }
+      return valid;
+    }
+
     contactForm.addEventListener('submit', function (event) {
       event.preventDefault();
-      /* Integrazione futura: Formspree, API custom, Netlify Forms, ecc.
-         Esempio Formspree: contactForm.action = 'https://formspree.io/f/XXXX';
-         contactForm.removeEventListener oppure rimuovere preventDefault dopo configurazione. */
+      if (submitBtn && submitBtn.disabled) return;
+      if (!validateClient()) {
+        showStatus('Controlla i campi evidenziati.', 'error');
+        return;
+      }
+
+      if (submitBtn) {
+        submitBtn.disabled = true;
+        submitBtn.dataset.originalLabel = submitBtn.textContent;
+        submitBtn.textContent = 'Invio in corso…';
+      }
+      showStatus('Invio in corso…', null);
+
+      const formData = new FormData(contactForm);
+
+      fetch('/api/contact.php', {
+        method: 'POST',
+        body: formData,
+        headers: { Accept: 'application/json' },
+      })
+        .then(function (response) {
+          return response.json().then(function (data) {
+            return { ok: response.ok, status: response.status, data: data };
+          });
+        })
+        .then(function (result) {
+          if (result.data && result.data.ok) {
+            contactForm.reset();
+            clearErrors();
+            showStatus(result.data.message || 'Richiesta inviata.', 'success');
+            return;
+          }
+          if (result.data && result.data.errors) {
+            Object.keys(result.data.errors).forEach(function (key) {
+              setFieldError(key, result.data.errors[key]);
+            });
+            showStatus('Controlla i campi evidenziati.', 'error');
+            return;
+          }
+          showStatus((result.data && result.data.error) || 'Invio non riuscito. Riprova o scrivi a info@touchlabs.it.', 'error');
+        })
+        .catch(function () {
+          showStatus('Errore di rete. Riprova o scrivi a info@touchlabs.it.', 'error');
+        })
+        .finally(function () {
+          if (submitBtn) {
+            submitBtn.disabled = false;
+            submitBtn.textContent = submitBtn.dataset.originalLabel || 'Invia la tua richiesta';
+          }
+        });
     });
   }
+
+  /* --- Google Maps click-to-load --- */
+  function initLazyMaps() {
+    document.querySelectorAll('[data-map-lazy]').forEach(function (wrap) {
+      const trigger = wrap.querySelector('[data-map-trigger]');
+      const src = wrap.getAttribute('data-map-src');
+      if (!trigger || !src) return;
+
+      trigger.addEventListener('click', function () {
+        const iframe = document.createElement('iframe');
+        iframe.src = src;
+        iframe.title = wrap.getAttribute('data-map-title') || 'Mappa';
+        iframe.loading = 'lazy';
+        iframe.referrerPolicy = 'no-referrer-when-downgrade';
+        iframe.setAttribute('allowfullscreen', '');
+        wrap.innerHTML = '';
+        wrap.appendChild(iframe);
+      });
+    });
+  }
+
+  initLazyMaps();
 
   /* --- Showreel videos: reduced motion + lazy play --- */
   function initShowreelVideos() {

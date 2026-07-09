@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
+  <script src="/assets/js/head.js"></script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Portfolio — Touchlabs | Progetti reali: medicale, industria, AR e software custom</title>
-  <meta name="description" content="Portfolio Touchlabs: Surgeree, Scattolini S.p.A., Luxury Living Group, Nottetempo, Il Labirinto e b-r1ng. Settore, beneficio e pilastri in sintesi — il dettaglio nei case study." />
+  <meta name="description" content="Portfolio Touchlabs: sei case study — Surgeree, Scattolini, Luxury Living Group, Nottetempo, Il Labirinto e b-r1ng — più lo showcase video ITM Monoblock. Sintesi per settore e pilastro; il dettaglio nelle pagine dedicate." />
   <meta property="og:title" content="Portfolio — Touchlabs" />
-  <meta property="og:description" content="Sei progetti reali in sintesi: medicale, industria, luxury, cultura, eventi e brand experience. Apri il case study per approfondire." />
+  <meta property="og:description" content="Sei case study e uno showcase video: medicale, industria, luxury, cultura, eventi e brand experience. Apri la pagina dedicata per approfondire." />
   <meta property="og:type" content="website" />
   <meta property="og:locale" content="it_IT" />
   <meta property="og:url" content="https://www.touchlabs.it/portfolio.html" />
@@ -15,17 +16,14 @@
   <meta name="twitter:card" content="summary_large_image" />
   <link rel="canonical" href="https://www.touchlabs.it/portfolio.html" />
   <link rel="icon" href="/assets/img/logos/favicon.svg" type="image/svg+xml" />
-  <link rel="apple-touch-icon" href="/assets/img/logos/apple-touch-icon.svg" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="apple-touch-icon" href="/assets/img/logos/apple-touch-icon.svg" /><link rel="stylesheet" href="/assets/css/fonts.css" />
   <link rel="stylesheet" href="/assets/css/style.css" />
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
     "name": "Portfolio — Touchlabs",
-    "description": "Vetrina progetti Touchlabs: Surgeree, Scattolini S.p.A., Luxury Living Group, Nottetempo, Il Labirinto e b-r1ng.",
+    "description": "Vetrina progetti Touchlabs: sei case study (Surgeree, Scattolini, Luxury Living Group, Nottetempo, Il Labirinto, b-r1ng) e showcase ITM Monoblock.",
     "url": "https://www.touchlabs.it/portfolio.html",
     "mainEntity": {
       "@type": "ItemList",
@@ -37,6 +35,7 @@
             "@type": "CreativeWork",
             "name": "Surgeree",
             "description": "Formazione medicale immersiva e supporto chirurgico avanzato con Spatial Computing e AI.",
+            "url": "https://www.touchlabs.it/surgeree.html",
             "genre": "Medicale"
           }
         },
@@ -47,6 +46,7 @@
             "@type": "CreativeWork",
             "name": "Scattolini S.p.A.",
             "description": "Gestionale web integrato con SAP e configuratore 3D realtime per allestimenti industriali.",
+            "url": "https://www.touchlabs.it/scattolini.html",
             "genre": "Industria"
           }
         },
@@ -68,6 +68,7 @@
             "@type": "CreativeWork",
             "name": "Nottetempo",
             "description": "Esperienza teatrale immersiva in realtà virtuale.",
+            "url": "https://www.touchlabs.it/nottetempo.html",
             "genre": "Cultura / Eventi"
           }
         },
@@ -78,6 +79,7 @@
             "@type": "CreativeWork",
             "name": "Il Labirinto",
             "description": "Esperienza interattiva immersiva per eventi e gamification con Meta Quest.",
+            "url": "https://www.touchlabs.it/il-labirinto.html",
             "genre": "Eventi / Entertainment"
           }
         },
@@ -132,12 +134,12 @@
       <div class="container page-hero__inner">
         <p class="eyebrow animate-in">Portfolio · Bologna</p>
         <h1 id="hero-title" class="page-hero__title animate-in">Progetti reali, partiti da problemi concreti</h1>
-        <p class="page-hero__subtitle animate-in">Sei case study in sintesi: settore, beneficio e pilastro Touchlabs. Per il contesto completo, apri il progetto dedicato.</p>
+        <p class="page-hero__subtitle animate-in">Sei case study in sintesi, più uno showcase video. Settore, beneficio e pilastro Touchlabs — il dettaglio nelle pagine dedicate.</p>
         <a href="#surgeree" class="btn btn--primary animate-in">Scorri i progetti</a>
       </div>
     </section>
 
-    <!-- Showreel -->
+    <!-- Panoramica visiva (poster statico — lo showreel completo è in Home) -->
     <section class="section section--light section-intro section-intro--tight portfolio-showreel" aria-labelledby="showreel-title">
       <div class="container">
         <div class="portfolio-showreel__inner reveal">
@@ -145,23 +147,16 @@
             <h2 id="showreel-title" class="portfolio-showreel__title">Uno sguardo ai nostri progetti</h2>
             <p class="portfolio-showreel__desc">Dalle esperienze immersive ai configuratori 3D, ogni progetto nasce da una sfida reale e diventa uno strumento concreto.</p>
           </header>
-          <div class="showreel-frame showreel-frame--wide" data-showreel>
-            <div class="showreel-frame__glow" aria-hidden="true"></div>
-            <div class="showreel-frame__inner">
-              <video
-                class="showreel-frame__video"
-                poster="/assets/img/company/touchlabs-showreel-poster.jpg"
-                muted
-                loop
-                playsinline
-                preload="metadata"
-                aria-label="Showreel Touchlabs — panoramica dei progetti"
-              >
-                <source src="/assets/video/touchlabs-showreel.webm" type="video/webm" />
-                <source src="/assets/video/touchlabs-showreel-compressed.mp4" type="video/mp4" />
-              </video>
-            </div>
-          </div>
+          <figure class="portfolio-showreel__poster">
+            <img
+              src="/assets/img/company/touchlabs-showreel-poster.jpg"
+              alt="Anteprima progetti Touchlabs — showreel disponibile nella home"
+              width="1920"
+              height="1080"
+              loading="lazy"
+              decoding="async"
+            />
+          </figure>
         </div>
       </div>
     </section>
@@ -313,7 +308,7 @@
                 <li>Esperienza immersiva</li>
                 <li>Video 360</li>
               </ul>
-              <a href="/spatial-computing.html#nottetempo" class="link-arrow portfolio-showcase__cta">Leggi il case study</a>
+              <a href="/nottetempo.html" class="link-arrow portfolio-showcase__cta">Leggi il case study</a>
             </div>
             <div class="portfolio-showcase__visual">
               <div class="spatial-case-video portfolio-showcase__video">
@@ -414,12 +409,12 @@
         </div>
       </article>
 
-      <!-- 7. ITM Monoblock -->
+      <!-- Showcase: ITM Monoblock (non case study) -->
       <article class="portfolio-showcase portfolio-showcase--compact section section--light reveal" id="itm-monoblock" aria-labelledby="itm-title">
         <div class="container">
           <div class="portfolio-showcase__grid portfolio-showcase__grid--reverse">
             <div class="portfolio-showcase__content">
-              <p class="portfolio-showcase__sector">Industria</p>
+              <p class="portfolio-showcase__sector">Industria · Showcase</p>
               <h2 id="itm-title" class="portfolio-showcase__title">Video CGI per presentazione prodotto industriale</h2>
               <p class="portfolio-showcase__name">ITM Monoblock</p>
               <p class="portfolio-showcase__desc">Un video 3D di prodotto pensato per presentare in modo chiaro, dinamico e coinvolgente le caratteristiche tecniche di un prodotto industriale complesso.</p>
@@ -433,8 +428,9 @@
                 <li>Presentazione prodotto</li>
                 <li>Fiere ed eventi</li>
               </ul>
+              <a href="/digital-experience.html#itm-monoblock" class="link-arrow portfolio-showcase__cta">Scopri il progetto</a>
             </div>
-            <div class="portfolio-showcase__visual">
+            <div class="portfolio-showcase__visual" id="itm-monoblock-video">
               <div class="spatial-case-video portfolio-showcase__video">
                 <video
                   class="spatial-case-video__player"
@@ -538,11 +534,21 @@
           <h3 class="footer__heading">Contatti</h3>
           <ul class="footer__list footer__list--contact">
             <li><a href="mailto:info@touchlabs.it">info@touchlabs.it</a></li>
-            <li>Bologna, Italia</li>
+            <li>Via Capo di Lucca 12, Bologna</li>
           </ul>
         </div>
       </div>
+      <div class="footer__company">
+        <p class="footer__company-line"><strong>Touchlabs</strong></p>
+        <p class="footer__company-line">Via Capo di Lucca 12, 40126 Bologna (BO), Italia</p>
+        <p class="footer__company-line"><a href="mailto:info@touchlabs.it">info@touchlabs.it</a></p>
+      </div>
+
       <div class="footer__bottom">
+        <nav class="footer__legal" aria-label="Informazioni legali">
+          <a href="/privacy.html">Privacy policy</a>
+          <a href="/cookie.html">Cookie policy</a>
+        </nav>
         <p class="footer__copy">&copy; 2026 Touchlabs. Tutti i diritti riservati.</p>
       </div>
     </div>

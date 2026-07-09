@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
+  <script src="/assets/js/head.js"></script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Contatti — Touchlabs | Parliamo del tuo progetto</title>
@@ -15,10 +16,7 @@
   <meta name="twitter:card" content="summary_large_image" />
   <link rel="canonical" href="https://www.touchlabs.it/contatti.html" />
   <link rel="icon" href="/assets/img/logos/favicon.svg" type="image/svg+xml" />
-  <link rel="apple-touch-icon" href="/assets/img/logos/apple-touch-icon.svg" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="apple-touch-icon" href="/assets/img/logos/apple-touch-icon.svg" /><link rel="stylesheet" href="/assets/css/fonts.css" />
   <link rel="stylesheet" href="/assets/css/style.css" />
   <script type="application/ld+json">
   {
@@ -116,21 +114,26 @@
           </div>
 
           <div class="contact__form-wrap reveal">
-            <!--
-              INTEGRAZIONE FORM (futura):
-              - Formspree: impostare action="https://formspree.io/f/XXXX" e method="POST"
-              - Backend custom: action="/api/contact" method="POST"
-              - Netlify Forms: aggiungere data-netlify="true" e name al form
-              Rimuovere preventDefault in main.js dopo la configurazione.
-            -->
             <form
               id="contact-form"
               class="contact-form"
-              action="#"
+              action="/api/contact.php"
               method="post"
               novalidate
             >
               <div class="contact-form__fields">
+                <div class="form-field form-field--honeypot" aria-hidden="true">
+                  <label class="form-label" for="contact-website">Sito web</label>
+                  <input
+                    class="form-input"
+                    type="text"
+                    id="contact-website"
+                    name="website"
+                    tabindex="-1"
+                    autocomplete="off"
+                  />
+                </div>
+
                 <div class="form-row">
                   <div class="form-field">
                     <label class="form-label" for="contact-name">Nome</label>
@@ -141,7 +144,9 @@
                       name="name"
                       autocomplete="name"
                       required
+                      aria-describedby="error-name"
                     />
+                    <p class="form-error" id="error-name" data-error-for="name" role="alert"></p>
                   </div>
                   <div class="form-field">
                     <label class="form-label" for="contact-email">Email</label>
@@ -152,7 +157,9 @@
                       name="email"
                       autocomplete="email"
                       required
+                      aria-describedby="error-email"
                     />
+                    <p class="form-error" id="error-email" data-error-for="email" role="alert"></p>
                   </div>
                 </div>
 
@@ -200,14 +207,33 @@
                     name="message"
                     placeholder="Descrivi liberamente il contesto — non serve un brief formale"
                     required
+                    aria-describedby="error-message"
                   ></textarea>
+                  <p class="form-error" id="error-message" data-error-for="message" role="alert"></p>
                 </div>
+
+                <div class="form-field form-field--checkbox">
+                  <input
+                    type="checkbox"
+                    id="contact-privacy"
+                    name="privacy_consent"
+                    value="1"
+                    required
+                    aria-describedby="error-privacy"
+                  />
+                  <label for="contact-privacy" class="form-label form-label--checkbox">
+                    Ho letto l'<a href="/privacy.html">informativa privacy</a> e acconsento al trattamento dei dati per rispondere alla richiesta.
+                  </label>
+                  <p class="form-error" id="error-privacy" data-error-for="privacy_consent" role="alert"></p>
+                </div>
+
+                <div id="contact-form-status" class="contact-form__status" role="status" aria-live="polite" hidden></div>
 
                 <button type="submit" class="btn btn--primary contact-form__submit">Invia la tua richiesta</button>
 
                 <p class="contact-form__privacy">
                   I tuoi dati saranno utilizzati solo per rispondere alla richiesta.
-                  <!-- Futuro link privacy policy: <a href="/privacy.html">Privacy policy</a> -->
+                  Leggi la <a href="/privacy.html">privacy policy</a>.
                 </p>
               </div>
             </form>
@@ -238,14 +264,17 @@
     <section class="section section--white contact-map-strip" aria-labelledby="map-title">
       <div class="container contact-map-strip__inner reveal">
         <h2 id="map-title" class="contact-map-strip__title">Dove siamo</h2>
-        <div class="contact-map__embed contact-map-strip__embed" aria-label="Mappa sede Touchlabs">
-          <iframe
-            src="https://maps.google.com/maps?q=Via+Capo+di+Lucca+12,+40126+Bologna,+Italy&amp;hl=it&amp;z=16&amp;output=embed"
-            title="Mappa — Via Capo di Lucca 12, Bologna"
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-            allowfullscreen
-          ></iframe>
+        <div
+          class="contact-map__embed contact-map-strip__embed"
+          data-map-lazy
+          data-map-src="https://maps.google.com/maps?q=Via+Capo+di+Lucca+12,+40126+Bologna,+Italy&amp;hl=it&amp;z=16&amp;output=embed"
+          data-map-title="Mappa — Via Capo di Lucca 12, Bologna"
+          aria-label="Mappa sede Touchlabs"
+        >
+          <div class="contact-map__placeholder" data-map-trigger>
+            <p class="contact-map__address">Via Capo di Lucca 12<br />40126 Bologna (BO), Italia</p>
+            <button type="button" class="btn btn--secondary btn--sm">Mostra mappa</button>
+          </div>
         </div>
         <a
           href="https://www.google.com/maps/search/?api=1&amp;query=Via+Capo+di+Lucca+12,+40126+Bologna,+Italy"
@@ -289,11 +318,21 @@
           <h3 class="footer__heading">Contatti</h3>
           <ul class="footer__list footer__list--contact">
             <li><a href="mailto:info@touchlabs.it">info@touchlabs.it</a></li>
-            <li>Bologna, Italia</li>
+            <li>Via Capo di Lucca 12, Bologna</li>
           </ul>
         </div>
       </div>
+      <div class="footer__company">
+        <p class="footer__company-line"><strong>Touchlabs</strong></p>
+        <p class="footer__company-line">Via Capo di Lucca 12, 40126 Bologna (BO), Italia</p>
+        <p class="footer__company-line"><a href="mailto:info@touchlabs.it">info@touchlabs.it</a></p>
+      </div>
+
       <div class="footer__bottom">
+        <nav class="footer__legal" aria-label="Informazioni legali">
+          <a href="/privacy.html">Privacy policy</a>
+          <a href="/cookie.html">Cookie policy</a>
+        </nav>
         <p class="footer__copy">&copy; 2026 Touchlabs. Tutti i diritti riservati.</p>
       </div>
     </div>
