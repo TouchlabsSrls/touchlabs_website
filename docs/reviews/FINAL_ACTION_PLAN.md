@@ -1,88 +1,67 @@
 # Final Action Plan — Touchlabs
 
-**Data aggiornamento:** 9 luglio 2026 (validazione P0)  
-**Stato:** P0 implementato e verificato — **non pronto per P1**
+**Data aggiornamento:** 29 giugno 2026  
+**Stato:** P0 completato (tecnico) · **P1 implementato** (Fase 1 + Fase 2) · Go-live bloccato dai LAUNCH BLOCKER
 
 ---
 
-## Esito validazione P0
+## P0 — LAUNCH BLOCKER ANCORA APERTI
 
-Vedi report completo: **[P0_FINAL_VALIDATION.md](./P0_FINAL_VALIDATION.md)**  
-Form test: **[CONTACT_FORM_TEST.md](./CONTACT_FORM_TEST.md)**
+Queste attività restano **obbligatorie prima del go-live**. Non sono complete.
 
-| Esito | N. |
-|-------|-----|
-| ✅ Completate e verificate | 8 |
-| ⚠️ Parziali | 3 |
-| 🔒 Bloccate (esterne) | 2 |
-
-### Autorizzazione P1
-
-**NON AUTORIZZATO** finché non sono risolti:
-- SMTP + test invio reale form
-- Validazione legale privacy/cookie
-- Dati societari (`docs/TODO_COMPANY_DATA.md`)
+| # | Attività | Responsabile | Riferimento |
+|---|----------|--------------|-------------|
+| LB-1 | **Configurazione SMTP e test reale del form** | Ops / backend | `api/.env`, `docs/deployment/CONTACT_FORM_SETUP.md` |
+| LB-2 | **Inserimento dati societari definitivi** | Azienda | `docs/TODO_COMPANY_DATA.md` |
+| LB-3 | **Validazione legale Privacy Policy e Cookie Policy** | Legale | `public/privacy.html`, `public/cookie.html` |
+| LB-4 | **QA manuale finale browser e viewport** | QA | 6 viewport — vedi `P1_SMOKE_TEST.md` |
+| LB-5 | **Replica configurazione nginx in produzione** | Ops | `docs/deployment/nginx-redirects.conf`, `docs/deployment/REDIRECT_MAP.md` |
 
 ---
 
-## P0 — Stato aggiornato post-validazione
+## P1 — Stato implementazione
 
-| ID | Attività | Stato | Note validazione |
-|----|----------|-------|------------------|
-| P0-1 | Form contatti | ⚠️ Parziale | API hardened; test 422/503/honeypot OK; **SMTP mancante** |
-| P0-2 | Privacy Policy | 🔒 Bloccata | Pagina con marker validazione — non definitiva |
-| P0-3 | Cookie policy | ✅ / 🔒 | Self-hosted fonts; marker legale ancora presente |
-| P0-4 | sitemap.xml | ✅ | 18 URL, esclude configuratori-3d |
-| P0-5 | robots.txt | ✅ | Disallow configuratori-3d |
-| P0-6 | Redirect 301 | ✅ | Verificato HTTP 301; nginx fix applicato |
-| P0-7 | Portfolio conteggi | ✅ | 6 case study + showcase ITM |
-| P0-8 | Nottetempo case study | ✅ | `nottetempo.html` + CTA portfolio |
-| P0-9 | No-JS reveal | ✅ | Progressive enhancement verificato |
-| P0-10 | Menu mobile no-JS | ✅ | Fallback CSS presente |
+| ID | Titolo | Stato | Note |
+|----|--------|-------|------|
+| P1-1 | Showreel home | ✅ | Master 72 MB in `assets-source/video/`; deploy usa WebM + MP4 compresso; nessun re-encoding |
+| P1-2 | Portfolio video | ✅ | `data-portfolio-video` + `initPortfolioVideos()` |
+| P1-3 | Snellire spatial-computing | ✅ | −22% righe; invest + Nottetempo narrativo rimossi; teaser portfolio |
+| P1-4 | Rimuovere 9 service cards home | ✅ | CTA «Scopri tutti i servizi» |
+| P1-5 | Identità home sintetica | ✅ | Frase + «La nostra storia» |
+| P1-6 | Innovation Hub fonte principale | ✅ | Teaser su Home e Chi siamo |
+| P1-7 | CTA per ruolo | ✅ | Navbar/finali contatti allineati; landing compatte «Parliamone» mantenute |
+| P1-8 | OG raster hub | ✅ | `og-image.jpg` 1200×630 |
+| P1-9 | JSON-LD indirizzo | ✅ | `streetAddress` verificato |
+| P1-10 | JSON-LD ITM | ⛔ Annullata | — |
+| P1-11 | Poster b-r1ng | ✅ | Hero + gallery + portfolio |
+| P1-12 | `--radius-xl` | ✅ | 20px in `:root` |
+| P1-13 | Token hero case study | ✅ | Token famiglie + `HERO_LAYOUT_EXCEPTIONS.md` |
+| P1-14 | REDIRECT_MAP | ✅ | Solo redirect verificato documentato |
 
----
-
-## Hardening aggiuntivo (sessione validazione)
-
-- Font Google → **self-hosted** (`public/assets/fonts/`, `fonts.css`)
-- Form: IP proxy, From `@touchlabs.it`, errori SMTP generici, log senza PII
-- Nginx: fix crash loop redirect; `$http_host` nel 301
-- `configuratori-3d.html`: rimosso meta refresh
-- Inventario tracking aggiornato (no Google Fonts esterni)
+**Smoke test:** [P1_SMOKE_TEST.md](./P1_SMOKE_TEST.md)
 
 ---
 
-## Dati e accessi mancanti
+## P1 — Attività non eseguite / residui
 
-| Elemento | Riferimento |
-|----------|-------------|
-| Credenziali SMTP | `api/.env` |
-| Ragione sociale, P.IVA, DPO, ecc. | `docs/TODO_COMPANY_DATA.md` |
-| Revisione legale privacy/cookie | Marker in `privacy.html`, `cookie.html` |
-| Test invio email reale | `CONTACT_FORM_TEST.md` §5–6 |
-| QA responsive 6 viewport | `P0_FINAL_VALIDATION.md` §6 |
-
----
-
-## Problemi aperti minori (non bloccanti P1 ma consigliati)
-
-- Poster mancanti video b-r1ng (`br1ng.html`, `portfolio.html#bring`)
-- Asset video non referenziati in repo (72 MB showreel originale)
-- 5 video autoplay su portfolio (performance)
+| Voce | Motivo |
+|------|--------|
+| Re-encoding showreel | Peso attuale (WebM 18 MB) già accettabile; qualità non degradata |
+| Redirect legacy Joomla aggiuntivi | Nessun traffico verificato — vedi `REDIRECT_MAP.md` § Legacy |
+| Riduzione spatial-computing al −30% | Raggiunto −22%; ulteriore taglio richiederebbe compromesso su applicazioni/settori |
+| QA browser 6 viewport | LAUNCH BLOCKER LB-4 |
 
 ---
 
-## P1 / P2 / P3
+## P2 / P3
 
-**Non implementati.** Restano in backlog. Non procedere senza approvazione esplicita post-chiusura blocchi P0 sopra.
+**Non implementati.** Non avviare senza nuova approvazione.
 
 ---
 
-## Prossimi passi
+## Documenti correlati
 
-1. Fornire dati `TODO_COMPANY_DATA.md`
-2. Configurare `api/.env` e testare invio reale
-3. Revisione legale privacy/cookie
-4. QA browser sui 6 viewport
-5. Deploy nginx produzione con redirect 301
-6. **Solo allora:** approvare avvio P1
+- [P1_SMOKE_TEST.md](./P1_SMOKE_TEST.md)
+- [HERO_LAYOUT_EXCEPTIONS.md](./HERO_LAYOUT_EXCEPTIONS.md)
+- [REDIRECT_MAP.md](../deployment/REDIRECT_MAP.md)
+- [P0_FINAL_VALIDATION.md](./P0_FINAL_VALIDATION.md)

@@ -38,6 +38,16 @@
   --radius-sm: 8px;
   --radius-md: 12px;
   --radius-lg: 16px;
+  --radius-xl: 20px;
+
+  /* Page hero families (centered vs split) — vedi docs/reviews/HERO_LAYOUT_EXCEPTIONS.md */
+  --hero-centered-min-height: 65vh;
+  --hero-centered-text-max: 720px;
+  --hero-centered-padding-bottom: var(--space-7);
+  --hero-split-padding-top: calc(var(--navbar-height) + var(--space-5));
+  --hero-split-padding-bottom: var(--space-7);
+  --hero-split-gap: var(--space-7);
+  --hero-split-content-max: 36rem;
 
   --shadow-soft: 0 8px 32px rgba(20, 158, 202, 0.08);
   --shadow-card: 0 4px 24px rgba(0, 0, 0, 0.12);
@@ -1489,11 +1499,11 @@ button {
 /* --- Page Hero (internal pages) --- */
 .page-hero {
   position: relative;
-  min-height: 65vh;
+  min-height: var(--hero-centered-min-height);
   display: flex;
   align-items: center;
   padding-top: var(--navbar-height);
-  padding-bottom: var(--space-7);
+  padding-bottom: var(--hero-centered-padding-bottom);
   overflow: hidden;
   background: var(--color-bg);
 }
@@ -1518,7 +1528,7 @@ button {
 .page-hero__inner {
   position: relative;
   z-index: 1;
-  max-width: 720px;
+  max-width: var(--hero-centered-text-max);
   margin-inline: auto;
   text-align: center;
 }
@@ -3229,6 +3239,89 @@ a.service-nav__item:hover {
   object-fit: cover;
 }
 
+/* Portfolio showcase: contain intrinsic media widths inside grid */
+.portfolio-showcase__grid {
+  width: 100%;
+  min-width: 0;
+}
+
+.portfolio-showcase__content,
+.portfolio-showcase__visual {
+  min-width: 0;
+  max-width: 100%;
+}
+
+.portfolio-showcase__title {
+  overflow-wrap: break-word;
+}
+
+.portfolio-showcase__pillars,
+.portfolio-showcase__subtags {
+  max-width: 100%;
+}
+
+.portfolio-showcase .spatial-case-video.portfolio-showcase__video {
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  aspect-ratio: 16 / 9;
+}
+
+.portfolio-showcase__video .spatial-case-video__player {
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+}
+
+[data-portfolio-video] {
+  position: relative;
+}
+
+.portfolio-video-play {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  border: none;
+  border-radius: inherit;
+  background: rgba(10, 15, 20, 0.28);
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.portfolio-video-play:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
+.portfolio-video-play[hidden] {
+  display: none;
+}
+
+.portfolio-video-play__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  background: rgba(10, 15, 20, 0.62);
+  border: 2px solid rgba(255, 255, 255, 0.88);
+  color: #fff;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.28);
+  pointer-events: none;
+}
+
+.portfolio-video-play__icon svg {
+  width: 1.35rem;
+  height: 1.35rem;
+  margin-left: 0.15rem;
+}
+
 .portfolio-sectors {
   padding-block: var(--space-7);
 }
@@ -4336,8 +4429,8 @@ a.contact-details__value:focus-visible {
 /* --- Project detail: split hero (50/50) --- */
 .page-hero--split {
   min-height: auto;
-  padding-top: calc(var(--navbar-height) + var(--space-5));
-  padding-bottom: var(--space-7);
+  padding-top: var(--hero-split-padding-top);
+  padding-bottom: var(--hero-split-padding-bottom);
   align-items: stretch;
 }
 
@@ -4346,13 +4439,13 @@ a.contact-details__value:focus-visible {
   z-index: 1;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: var(--space-7);
+  gap: var(--hero-split-gap);
   align-items: center;
 }
 
 .page-hero--split .page-hero__content {
   text-align: left;
-  max-width: none;
+  max-width: var(--hero-split-content-max);
 }
 
 .page-hero--split .page-hero__content .case-badges {
@@ -5159,7 +5252,13 @@ a.contact-details__value:focus-visible {
 
   .portfolio-showcase__video,
   .portfolio-showcase__video .spatial-case-video__player {
-    min-height: 280px;
+    min-height: unset;
+    height: auto;
+  }
+
+  .portfolio-showcase--compact .portfolio-showcase__video,
+  .portfolio-showcase--compact .portfolio-showcase__video .spatial-case-video__player {
+    min-height: unset;
   }
 
   .portfolio-showcase {

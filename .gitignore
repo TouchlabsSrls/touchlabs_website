@@ -1,3 +1,5 @@
 api/.env
 .env
 *.env.local
+node_modules/
+assets-source/video/*.mp4

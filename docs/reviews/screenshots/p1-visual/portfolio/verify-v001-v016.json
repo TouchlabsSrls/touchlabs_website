@@ -1,0 +1,90 @@
+{
+  "at": "2026-07-10T08:47:41.992Z",
+  "base": "http://localhost:8084",
+  "results": [
+    {
+      "viewport": "1440x900",
+      "layout": {
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "overflow": false,
+        "offenders": [],
+        "playButtons": 0,
+        "playVisible": 0
+      },
+      "video": {
+        "playing": 1,
+        "playButtons": 0,
+        "playingAtTop": 0
+      },
+      "errors": [],
+      "pass": true
+    },
+    {
+      "viewport": "768x1024",
+      "layout": {
+        "scrollWidth": 768,
+        "clientWidth": 768,
+        "overflow": false,
+        "offenders": [],
+        "playButtons": 5,
+        "playVisible": 5
+      },
+      "video": {
+        "btnExists": true,
+        "btnVisible": true,
+        "paused": true,
+        "afterTap": {
+          "paused": false,
+          "btnHidden": true
+        }
+      },
+      "errors": [],
+      "pass": true
+    },
+    {
+      "viewport": "390x844",
+      "layout": {
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "overflow": false,
+        "offenders": [],
+        "playButtons": 5,
+        "playVisible": 5
+      },
+      "video": {
+        "btnExists": true,
+        "btnVisible": true,
+        "paused": true,
+        "afterTap": {
+          "paused": false,
+          "btnHidden": true
+        }
+      },
+      "errors": [],
+      "pass": true
+    },
+    {
+      "viewport": "360x800",
+      "layout": {
+        "scrollWidth": 360,
+        "clientWidth": 360,
+        "overflow": false,
+        "offenders": [],
+        "playButtons": 5,
+        "playVisible": 5
+      },
+      "video": {
+        "btnExists": true,
+        "btnVisible": true,
+        "paused": true,
+        "afterTap": {
+          "paused": false,
+          "btnHidden": true
+        }
+      },
+      "errors": [],
+      "pass": true
+    }
+  ]
+}

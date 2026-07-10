@@ -317,4 +317,122 @@
   }
 
   initVideoBreathers();
+
+  /* --- Portfolio showcase videos: viewport autoplay, mobile tap, save-data --- */
+  function initPortfolioVideos() {
+    const wrappers = document.querySelectorAll('[data-portfolio-video]');
+    if (!wrappers.length) return;
+
+    const conn = navigator.connection || navigator.mozConnection || navigator.webkitConnection;
+    const saveData = conn && conn.saveData;
+    const isMobile = window.matchMedia('(max-width: 768px), (pointer: coarse)').matches;
+    const allowAutoplay = !prefersReducedMotion && !saveData && !isMobile;
+    let activeVideo = null;
+
+    function pauseOthers(except) {
+      wrappers.forEach(function (w) {
+        const v = w.querySelector('video');
+        if (v && v !== except && !v.paused) {
+          v.pause();
+        }
+      });
+      activeVideo = except && !except.paused ? except : null;
+    }
+
+    function createPlayButton(wrapper, video) {
+      const rawLabel = video.getAttribute('aria-label') || '';
+      const playLabel = rawLabel
+        ? rawLabel.replace(/^Anteprima video\s*[—-]\s*/i, 'Riproduci video — ')
+        : 'Riproduci video del progetto';
+
+      const btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'portfolio-video-play';
+      btn.setAttribute('aria-label', playLabel);
+
+      const icon = document.createElement('span');
+      icon.className = 'portfolio-video-play__icon';
+      icon.setAttribute('aria-hidden', 'true');
+      icon.innerHTML =
+        '<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M8 5v14l11-7z"/></svg>';
+      btn.appendChild(icon);
+      wrapper.appendChild(btn);
+
+      function syncPlayButton() {
+        btn.hidden = !video.paused && !video.ended;
+      }
+
+      video.addEventListener('play', syncPlayButton);
+      video.addEventListener('pause', syncPlayButton);
+      video.addEventListener('ended', syncPlayButton);
+      syncPlayButton();
+
+      return btn;
+    }
+
+    wrappers.forEach(function (wrapper) {
+      const video = wrapper.querySelector('video');
+      if (!video) return;
+
+      video.removeAttribute('autoplay');
+
+      if (!allowAutoplay) {
+        video.pause();
+        if (prefersReducedMotion || saveData) {
+          video.setAttribute('controls', '');
+        }
+        if (isMobile && !prefersReducedMotion && !saveData) {
+          const playBtn = createPlayButton(wrapper, video);
+
+          playBtn.addEventListener('click', function (e) {
+            e.stopPropagation();
+            pauseOthers(video);
+            video.play().catch(function () {});
+            activeVideo = video;
+          });
+
+          wrapper.addEventListener('click', function () {
+            if (!video.paused) {
+              video.pause();
+              if (activeVideo === video) {
+                activeVideo = null;
+              }
+            }
+          });
+
+          playBtn.addEventListener('keydown', function (e) {
+            if (e.key === 'Enter' || e.key === ' ') {
+              e.preventDefault();
+              e.stopPropagation();
+              pauseOthers(video);
+              video.play().catch(function () {});
+              activeVideo = video;
+            }
+          });
+        }
+        return;
+      }
+
+      if ('IntersectionObserver' in window) {
+        const playObserver = new IntersectionObserver(
+          function (entries) {
+            entries.forEach(function (entry) {
+              if (entry.isIntersecting) {
+                pauseOthers(video);
+                video.play().catch(function () {});
+                activeVideo = video;
+              } else if (activeVideo === video) {
+                video.pause();
+                activeVideo = null;
+              }
+            });
+          },
+          { threshold: 0.35, rootMargin: '0px 0px -8% 0px' }
+        );
+        playObserver.observe(wrapper);
+      }
+    });
+  }
+
+  initPortfolioVideos();
 })();
