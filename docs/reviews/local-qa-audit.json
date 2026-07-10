@@ -1,0 +1,2980 @@
+{
+  "generatedAt": "2026-07-10T09:01:50.100Z",
+  "base": "http://localhost:8084",
+  "htmlPages": [
+    "ai-applicata.html",
+    "br1ng.html",
+    "chi-siamo.html",
+    "configuratori-3d.html",
+    "contatti.html",
+    "cookie.html",
+    "digital-experience.html",
+    "il-labirinto.html",
+    "index.html",
+    "innovation-hub.html",
+    "luxury-living-group.html",
+    "nottetempo.html",
+    "portfolio.html",
+    "privacy.html",
+    "scattolini.html",
+    "servizi.html",
+    "software-custom.html",
+    "spatial-computing.html",
+    "surgeree.html"
+  ],
+  "httpChecks": [
+    {
+      "page": "/ai-applicata.html",
+      "status": 200,
+      "location": null
+    },
+    {
+      "page": "/br1ng.html",
+      "status": 200,
+      "location": null
+    },
+    {
+      "page": "/chi-siamo.html",
+      "status": 200,
+      "location": null
+    },
+    {
+      "page": "/configuratori-3d.html",
+      "status": 301,
+      "location": "http://localhost:8084/digital-experience.html"
+    },
+    {
+      "page": "/contatti.html",
+      "status": 200,
+      "location": null
+    },
+    {
+      "page": "/cookie.html",
+      "status": 200,
+      "location": null
+    },
+    {
+      "page": "/digital-experience.html",
+      "status": 200,
+      "location": null
+    },
+    {
+      "page": "/il-labirinto.html",
+      "status": 200,
+      "location": null
+    },
+    {
+      "page": "/",
+      "status": 200,
+      "location": null
+    },
+    {
+      "page": "/innovation-hub.html",
+      "status": 200,
+      "location": null
+    },
+    {
+      "page": "/luxury-living-group.html",
+      "status": 200,
+      "location": null
+    },
+    {
+      "page": "/nottetempo.html",
+      "status": 200,
+      "location": null
+    },
+    {
+      "page": "/portfolio.html",
+      "status": 200,
+      "location": null
+    },
+    {
+      "page": "/privacy.html",
+      "status": 200,
+      "location": null
+    },
+    {
+      "page": "/scattolini.html",
+      "status": 200,
+      "location": null
+    },
+    {
+      "page": "/servizi.html",
+      "status": 200,
+      "location": null
+    },
+    {
+      "page": "/software-custom.html",
+      "status": 200,
+      "location": null
+    },
+    {
+      "page": "/spatial-computing.html",
+      "status": 200,
+      "location": null
+    },
+    {
+      "page": "/surgeree.html",
+      "status": 200,
+      "location": null
+    }
+  ],
+  "pagesMeta": [
+    {
+      "pageFile": "ai-applicata.html",
+      "pagePath": "/ai-applicata.html",
+      "title": "Artificial Intelligence — Touchlabs | AI integrata nei processi aziendali",
+      "h1s": 1,
+      "links": [
+        "https://www.touchlabs.it/ai-applicata.html",
+        "/assets/img/logos/favicon.svg",
+        "/assets/img/logos/apple-touch-icon.svg",
+        "/assets/css/fonts.css",
+        "/assets/css/style.css",
+        "/",
+        "/",
+        "/chi-siamo.html",
+        "/servizi.html",
+        "/portfolio.html",
+        "/innovation-hub.html",
+        "/contatti.html",
+        "/contatti.html",
+        "/contatti.html",
+        "/spatial-computing.html",
+        "/software-custom.html",
+        "/digital-experience.html",
+        "/servizi.html",
+        "/contatti.html",
+        "/",
+        "/software-custom.html",
+        "/spatial-computing.html",
+        "/ai-applicata.html",
+        "/digital-experience.html",
+        "/servizi.html",
+        "/servizi.html",
+        "/chi-siamo.html",
+        "/portfolio.html",
+        "/innovation-hub.html",
+        "/contatti.html",
+        "mailto:info@touchlabs.it",
+        "mailto:info@touchlabs.it",
+        "/privacy.html",
+        "/cookie.html"
+      ],
+      "imgs": [
+        "/assets/js/head.js",
+        "/assets/img/logos/logo-white.png",
+        "/assets/img/projects/surgeree/gallery-report.jpg",
+        "/assets/img/projects/surgeree/gallery-dicom.jpg",
+        "/assets/img/logos/logo-white.png",
+        "/assets/js/main.js"
+      ],
+      "videos": [],
+      "sources": [],
+      "anchors": [
+        "main-content"
+      ],
+      "oldUrls": 0
+    },
+    {
+      "pageFile": "br1ng.html",
+      "pagePath": "/br1ng.html",
+      "title": "b-r1ng® — Touchlabs | Hardware NFC, app mobile e realtà aumentata",
+      "h1s": 1,
+      "links": [
+        "https://www.touchlabs.it/br1ng.html",
+        "/assets/img/logos/favicon.svg",
+        "/assets/img/logos/apple-touch-icon.svg",
+        "/assets/css/fonts.css",
+        "/assets/css/style.css",
+        "/",
+        "/",
+        "/chi-siamo.html",
+        "/servizi.html",
+        "/portfolio.html",
+        "/innovation-hub.html",
+        "/contatti.html",
+        "/contatti.html",
+        "/portfolio.html#bring",
+        "/contatti.html",
+        "/contatti.html",
+        "/portfolio.html",
+        "/",
+        "/software-custom.html",
+        "/spatial-computing.html",
+        "/ai-applicata.html",
+        "/digital-experience.html",
+        "/servizi.html",
+        "/servizi.html",
+        "/chi-siamo.html",
+        "/portfolio.html",
+        "/innovation-hub.html",
+        "/contatti.html",
+        "mailto:info@touchlabs.it",
+        "mailto:info@touchlabs.it",
+        "/privacy.html",
+        "/cookie.html"
+      ],
+      "imgs": [
+        "/assets/js/head.js",
+        "/assets/img/logos/logo-white.png",
+        "/assets/img/projects/br1ng/hero.jpg",
+        "/assets/video/br1ng/br1ng.mp4",
+        "/assets/img/projects/br1ng/bracelet-1.jpg",
+        "/assets/img/projects/br1ng/mockup.jpg",
+        "/assets/img/projects/br1ng/ar-1.jpg",
+        "/assets/img/projects/br1ng/hero.jpg",
+        "/assets/video/br1ng/br1ng.mp4",
+        "/assets/img/projects/br1ng/hero.jpg",
+        "/assets/img/projects/br1ng/bracelet-2.jpg",
+        "/assets/img/projects/br1ng/ar-2.jpg",
+        "/assets/img/projects/br1ng/ar-light.jpg",
+        "/assets/img/projects/br1ng/lovemix.jpg",
+        "/assets/img/logos/logo-white.png",
+        "/assets/js/main.js"
+      ],
+      "videos": [
+        {
+          "poster": "/assets/img/projects/br1ng/hero.jpg",
+          "preload": "metadata",
+          "autoplay": true,
+          "muted": true,
+          "playsinline": true,
+          "aria": "Anteprima video — b-r1ng, bracciale NFC e esperienze in realtà aumentata"
+        },
+        {
+          "poster": "/assets/img/projects/br1ng/hero.jpg",
+          "preload": "metadata",
+          "autoplay": false,
+          "muted": false,
+          "playsinline": true,
+          "aria": "Video completo — b-r1ng, hardware NFC e esperienze digitali"
+        }
+      ],
+      "sources": [
+        "/assets/video/br1ng/br1ng.mp4",
+        "/assets/video/br1ng/br1ng.mp4"
+      ],
+      "anchors": [
+        "main-content"
+      ],
+      "oldUrls": 0
+    },
+    {
+      "pageFile": "chi-siamo.html",
+      "pagePath": "/chi-siamo.html",
+      "title": "Chi siamo — Touchlabs | Software house Bologna dal 2016",
+      "h1s": 1,
+      "links": [
+        "https://www.touchlabs.it/chi-siamo.html",
+        "/assets/img/logos/favicon.svg",
+        "/assets/img/logos/apple-touch-icon.svg",
+        "/assets/css/fonts.css",
+        "/assets/css/style.css",
+        "/",
+        "/",
+        "/chi-siamo.html",
+        "/servizi.html",
+        "/portfolio.html",
+        "/innovation-hub.html",
+        "/contatti.html",
+        "/contatti.html",
+        "/innovation-hub.html",
+        "/contatti.html",
+        "/servizi.html",
+        "/",
+        "/software-custom.html",
+        "/spatial-computing.html",
+        "/ai-applicata.html",
+        "/digital-experience.html",
+        "/servizi.html",
+        "/servizi.html",
+        "/chi-siamo.html",
+        "/portfolio.html",
+        "/innovation-hub.html",
+        "/contatti.html",
+        "mailto:info@touchlabs.it",
+        "mailto:info@touchlabs.it",
+        "/privacy.html",
+        "/cookie.html"
+      ],
+      "imgs": [
+        "/assets/js/head.js",
+        "/assets/img/logos/logo-white.png",
+        "/assets/img/company/office-touchlabs.jpg",
+        "/assets/img/logos/logo-white.png",
+        "/assets/js/main.js"
+      ],
+      "videos": [],
+      "sources": [],
+      "anchors": [
+        "main-content",
+        "metodo"
+      ],
+      "oldUrls": 0
+    },
+    {
+      "pageFile": "configuratori-3d.html",
+      "pagePath": "/configuratori-3d.html",
+      "title": "Reindirizzamento — Digital Experience",
+      "h1s": 0,
+      "links": [
+        "https://www.touchlabs.it/digital-experience.html",
+        "/digital-experience.html"
+      ],
+      "imgs": [],
+      "videos": [],
+      "sources": [],
+      "anchors": [],
+      "oldUrls": 0
+    },
+    {
+      "pageFile": "contatti.html",
+      "pagePath": "/contatti.html",
+      "title": "Contatti — Touchlabs | Parliamo del tuo progetto",
+      "h1s": 1,
+      "links": [
+        "https://www.touchlabs.it/contatti.html",
+        "/assets/img/logos/favicon.svg",
+        "/assets/img/logos/apple-touch-icon.svg",
+        "/assets/css/fonts.css",
+        "/assets/css/style.css",
+        "/",
+        "/",
+        "/chi-siamo.html",
+        "/servizi.html",
+        "/portfolio.html",
+        "/innovation-hub.html",
+        "/contatti.html",
+        "/contatti.html",
+        "mailto:info@touchlabs.it",
+        "/privacy.html",
+        "/privacy.html",
+        "https://www.google.com/maps/search/?api=1&amp;query=Via+Capo+di+Lucca+12,+40126+Bologna,+Italy",
+        "/",
+        "/software-custom.html",
+        "/spatial-computing.html",
+        "/ai-applicata.html",
+        "/digital-experience.html",
+        "/servizi.html",
+        "/servizi.html",
+        "/chi-siamo.html",
+        "/portfolio.html",
+        "/innovation-hub.html",
+        "/contatti.html",
+        "mailto:info@touchlabs.it",
+        "mailto:info@touchlabs.it",
+        "/privacy.html",
+        "/cookie.html"
+      ],
+      "imgs": [
+        "/assets/js/head.js",
+        "/assets/img/logos/logo-white.png",
+        "https://maps.google.com/maps?q=Via+Capo+di+Lucca+12,+40126+Bologna,+Italy&amp;hl=it&amp;z=16&amp;output=embed",
+        "/assets/img/logos/logo-white.png",
+        "/assets/js/main.js"
+      ],
+      "videos": [],
+      "sources": [],
+      "anchors": [
+        "main-content"
+      ],
+      "oldUrls": 0
+    },
+    {
+      "pageFile": "cookie.html",
+      "pagePath": "/cookie.html",
+      "title": "Cookie policy — Touchlabs",
+      "h1s": 1,
+      "links": [
+        "https://www.touchlabs.it/cookie.html",
+        "/assets/img/logos/favicon.svg",
+        "/assets/css/fonts.css",
+        "/assets/css/style.css",
+        "/",
+        "/",
+        "/chi-siamo.html",
+        "/servizi.html",
+        "/portfolio.html",
+        "/innovation-hub.html",
+        "/contatti.html",
+        "/contatti.html",
+        "/privacy.html",
+        "/",
+        "/chi-siamo.html",
+        "/contatti.html",
+        "mailto:info@touchlabs.it",
+        "mailto:info@touchlabs.it",
+        "/privacy.html",
+        "/cookie.html"
+      ],
+      "imgs": [
+        "/assets/js/head.js",
+        "/assets/img/logos/logo-white.png",
+        "/assets/img/logos/logo-white.png",
+        "/assets/js/main.js"
+      ],
+      "videos": [],
+      "sources": [],
+      "anchors": [
+        "main-content"
+      ],
+      "oldUrls": 0
+    },
+    {
+      "pageFile": "digital-experience.html",
+      "pagePath": "/digital-experience.html",
+      "title": "Digital Experience — Touchlabs | UX, piattaforme web e configuratori 3D",
+      "h1s": 1,
+      "links": [
+        "https://www.touchlabs.it/digital-experience.html",
+        "/assets/img/logos/favicon.svg",
+        "/assets/img/logos/apple-touch-icon.svg",
+        "/assets/css/fonts.css",
+        "/assets/css/style.css",
+        "/",
+        "/",
+        "/chi-siamo.html",
+        "/servizi.html",
+        "/portfolio.html",
+        "/innovation-hub.html",
+        "/contatti.html",
+        "/contatti.html",
+        "/contatti.html",
+        "/spatial-computing.html",
+        "/ai-applicata.html",
+        "/software-custom.html",
+        "/servizi.html",
+        "/scattolini.html",
+        "/contatti.html",
+        "/",
+        "/software-custom.html",
+        "/spatial-computing.html",
+        "/ai-applicata.html",
+        "/digital-experience.html",
+        "/servizi.html",
+        "/servizi.html",
+        "/chi-siamo.html",
+        "/portfolio.html",
+        "/innovation-hub.html",
+        "/contatti.html",
+        "mailto:info@touchlabs.it",
+        "mailto:info@touchlabs.it",
+        "/privacy.html",
+        "/cookie.html"
+      ],
+      "imgs": [
+        "/assets/js/head.js",
+        "/assets/img/logos/logo-white.png",
+        "/assets/img/projects/surgeree/gallery-segmentation.jpg",
+        "/assets/img/projects/labirinto/gallery-scena.jpg",
+        "/assets/img/projects/configuratore_scattolini/hero.jpg",
+        "/assets/img/projects/itm-monoblock/video-poster.jpg",
+        "/assets/video/itm-monoblock/itm-monoblock.webm",
+        "/assets/video/itm-monoblock/itm-monoblock-compressed.mp4",
+        "/assets/img/logos/logo-white.png",
+        "/assets/js/main.js"
+      ],
+      "videos": [
+        {
+          "poster": "/assets/img/projects/itm-monoblock/video-poster.jpg",
+          "preload": "metadata",
+          "autoplay": true,
+          "muted": true,
+          "playsinline": true,
+          "aria": "Video — ITM Monoblock, presentazione CGI prodotto industriale"
+        }
+      ],
+      "sources": [
+        "/assets/video/itm-monoblock/itm-monoblock.webm",
+        "/assets/video/itm-monoblock/itm-monoblock-compressed.mp4"
+      ],
+      "anchors": [
+        "main-content"
+      ],
+      "oldUrls": 0
+    },
+    {
+      "pageFile": "il-labirinto.html",
+      "pagePath": "/il-labirinto.html",
+      "title": "Il Labirinto — Touchlabs | Teatro immersivo in realtà virtuale",
+      "h1s": 1,
+      "links": [
+        "https://www.touchlabs.it/il-labirinto.html",
+        "/assets/img/logos/favicon.svg",
+        "/assets/img/logos/apple-touch-icon.svg",
+        "/assets/css/fonts.css",
+        "/assets/css/style.css",
+        "/",
+        "/",
+        "/chi-siamo.html",
+        "/servizi.html",
+        "/portfolio.html",
+        "/innovation-hub.html",
+        "/contatti.html",
+        "/contatti.html",
+        "/portfolio.html#labirinto",
+        "/contatti.html",
+        "/portfolio.html",
+        "/",
+        "/software-custom.html",
+        "/spatial-computing.html",
+        "/ai-applicata.html",
+        "/digital-experience.html",
+        "/servizi.html",
+        "/servizi.html",
+        "/chi-siamo.html",
+        "/portfolio.html",
+        "/innovation-hub.html",
+        "/contatti.html",
+        "mailto:info@touchlabs.it",
+        "mailto:info@touchlabs.it",
+        "/privacy.html",
+        "/cookie.html"
+      ],
+      "imgs": [
+        "/assets/js/head.js",
+        "/assets/img/logos/logo-white.png",
+        "/assets/img/projects/labirinto/hero.png",
+        "/assets/img/projects/labirinto/cover.png",
+        "/assets/img/projects/labirinto/labirinto.mp4",
+        "/assets/img/projects/labirinto/gallery-teatro-1.jpg",
+        "/assets/img/projects/labirinto/gallery-teatro-2.jpg",
+        "/assets/img/projects/labirinto/gallery-backstage.jpg",
+        "/assets/img/projects/labirinto/gallery-scena.jpg",
+        "/assets/img/logos/logo-white.png",
+        "/assets/js/main.js"
+      ],
+      "videos": [
+        {
+          "poster": "/assets/img/projects/labirinto/cover.png",
+          "preload": "metadata",
+          "autoplay": false,
+          "muted": false,
+          "playsinline": true,
+          "aria": "Video — Il Labirinto, esperienza VR"
+        }
+      ],
+      "sources": [
+        "/assets/img/projects/labirinto/labirinto.mp4"
+      ],
+      "anchors": [
+        "main-content"
+      ],
+      "oldUrls": 0
+    },
+    {
+      "pageFile": "index.html",
+      "pagePath": "/",
+      "title": "Touchlabs — Software house Bologna | Sviluppo custom, AI e Spatial Computing",
+      "h1s": 1,
+      "links": [
+        "https://www.touchlabs.it/",
+        "/assets/img/logos/favicon.svg",
+        "/assets/img/logos/apple-touch-icon.svg",
+        "/assets/css/fonts.css",
+        "/assets/css/style.css",
+        "/",
+        "/",
+        "/chi-siamo.html",
+        "/servizi.html",
+        "/portfolio.html",
+        "/innovation-hub.html",
+        "/contatti.html",
+        "/contatti.html",
+        "/servizi.html",
+        "/contatti.html",
+        "/chi-siamo.html",
+        "/spatial-computing.html",
+        "/software-custom.html",
+        "/ai-applicata.html",
+        "/digital-experience.html",
+        "/servizi.html",
+        "/portfolio.html",
+        "/surgeree.html",
+        "/innovation-hub.html",
+        "/contatti.html",
+        "/servizi.html",
+        "/",
+        "/software-custom.html",
+        "/spatial-computing.html",
+        "/ai-applicata.html",
+        "/digital-experience.html",
+        "/servizi.html",
+        "/servizi.html",
+        "/chi-siamo.html",
+        "/portfolio.html",
+        "/innovation-hub.html",
+        "/contatti.html",
+        "mailto:info@touchlabs.it",
+        "mailto:info@touchlabs.it",
+        "/privacy.html",
+        "/cookie.html"
+      ],
+      "imgs": [
+        "/assets/js/head.js",
+        "/assets/img/logos/logo-white.png",
+        "/assets/img/company/touchlabs-showreel-poster.jpg",
+        "/assets/video/touchlabs-showreel.webm",
+        "/assets/video/touchlabs-showreel-compressed.mp4",
+        "/assets/video/configuratore_clubhouse/configuratore-poster.jpg",
+        "/assets/video/configuratore_clubhouse/configuratore.webm",
+        "/assets/video/configuratore_clubhouse/configuratore-compressed.mp4",
+        "/assets/img/logos/clients/lamborghini.png",
+        "/assets/img/logos/clients/b-r1ng.png",
+        "/assets/img/logos/clients/bonfiglioli.png",
+        "/assets/img/logos/clients/bentley.png",
+        "/assets/img/logos/clients/intrauma.png",
+        "/assets/img/logos/clients/fendi.png",
+        "/assets/img/logos/clients/itm.png",
+        "/assets/img/logos/clients/ferretti.png",
+        "/assets/img/logos/clients/fini.png",
+        "/assets/img/logos/clients/franco-grillini.png",
+        "/assets/img/logos/clients/vection.png",
+        "/assets/img/logos/clients/trussardi.png",
+        "/assets/img/logos/clients/volvo.png",
+        "/assets/img/logos/clients/bonsai.png",
+        "/assets/img/logos/clients/massimiliano-benincasa.png",
+        "/assets/img/logos/clients/tecnica-tre.png",
+        "/assets/img/logos/clients/acoi.png",
+        "/assets/img/logos/clients/scattolini.png",
+        "/assets/img/logos/clients/birex.png",
+        "/assets/img/logos/clients/cpmi.png",
+        "/assets/img/logos/clients/haier.png",
+        "/assets/img/logos/clients/legrand.png",
+        "/assets/img/logos/clients/gamma.png",
+        "/assets/img/logos/clients/landart.png",
+        "/assets/img/logos/clients/tsunami.png",
+        "/assets/img/illustrations/pillar-spatial.svg",
+        "/assets/img/illustrations/pillar-software.svg",
+        "/assets/img/illustrations/pillar-ai.svg",
+        "/assets/img/illustrations/pillar-experience.svg",
+        "/assets/video/haier/haier-poster.jpg",
+        "/assets/video/haier/haier.webm",
+        "/assets/video/haier/haier-compressed.mp4",
+        "/assets/img/projects/surgeree/hero.jpg",
+        "/assets/img/projects/surgeree-layer-1.svg",
+        "/assets/img/projects/surgeree-layer-2.svg",
+        "/assets/img/projects/surgeree-layer-3.svg",
+        "/assets/img/illustrations/innovation-orbit.svg",
+        "/assets/img/logos/logo-white.png",
+        "/assets/js/main.js"
+      ],
+      "videos": [
+        {
+          "poster": "/assets/img/company/touchlabs-showreel-poster.jpg",
+          "preload": "metadata",
+          "autoplay": true,
+          "muted": true,
+          "playsinline": true,
+          "aria": "Showreel Touchlabs — progetti e tecnologie"
+        },
+        {
+          "poster": "/assets/video/configuratore_clubhouse/configuratore-poster.jpg",
+          "preload": "metadata",
+          "autoplay": false,
+          "muted": true,
+          "playsinline": true,
+          "aria": null
+        },
+        {
+          "poster": "/assets/video/haier/haier-poster.jpg",
+          "preload": "metadata",
+          "autoplay": false,
+          "muted": true,
+          "playsinline": true,
+          "aria": "Progetto Haier — esperienza digitale Touchlabs"
+        }
+      ],
+      "sources": [
+        "/assets/video/touchlabs-showreel.webm",
+        "/assets/video/touchlabs-showreel-compressed.mp4",
+        "/assets/video/configuratore_clubhouse/configuratore.webm",
+        "/assets/video/configuratore_clubhouse/configuratore-compressed.mp4",
+        "/assets/video/haier/haier.webm",
+        "/assets/video/haier/haier-compressed.mp4"
+      ],
+      "anchors": [
+        "main-content"
+      ],
+      "oldUrls": 0
+    },
+    {
+      "pageFile": "innovation-hub.html",
+      "pagePath": "/innovation-hub.html",
+      "title": "Innovation Hub — Touchlabs | Ricerca, prototipi e tecnologie emergenti",
+      "h1s": 1,
+      "links": [
+        "https://www.touchlabs.it/innovation-hub.html",
+        "/assets/img/logos/favicon.svg",
+        "/assets/img/logos/apple-touch-icon.svg",
+        "/assets/css/fonts.css",
+        "/assets/css/style.css",
+        "/",
+        "/",
+        "/chi-siamo.html",
+        "/servizi.html",
+        "/portfolio.html",
+        "/innovation-hub.html",
+        "/contatti.html",
+        "/contatti.html",
+        "/surgeree.html",
+        "/portfolio.html",
+        "/portfolio.html",
+        "/il-labirinto.html",
+        "/contatti.html",
+        "/portfolio.html",
+        "/",
+        "/software-custom.html",
+        "/spatial-computing.html",
+        "/ai-applicata.html",
+        "/digital-experience.html",
+        "/servizi.html",
+        "/servizi.html",
+        "/chi-siamo.html",
+        "/portfolio.html",
+        "/innovation-hub.html",
+        "/contatti.html",
+        "mailto:info@touchlabs.it",
+        "mailto:info@touchlabs.it",
+        "/privacy.html",
+        "/cookie.html"
+      ],
+      "imgs": [
+        "/assets/js/head.js",
+        "/assets/img/logos/logo-white.png",
+        "/assets/img/illustrations/innovation-orbit.svg",
+        "/assets/img/logos/logo-white.png",
+        "/assets/js/main.js"
+      ],
+      "videos": [],
+      "sources": [],
+      "anchors": [
+        "main-content"
+      ],
+      "oldUrls": 0
+    },
+    {
+      "pageFile": "luxury-living-group.html",
+      "pagePath": "/luxury-living-group.html",
+      "title": "Luxury Living Group — Touchlabs | Configuratore 3D luxury",
+      "h1s": 1,
+      "links": [
+        "https://www.touchlabs.it/luxury-living-group.html",
+        "/assets/img/logos/favicon.svg",
+        "/assets/img/logos/apple-touch-icon.svg",
+        "/assets/css/fonts.css",
+        "/assets/css/style.css",
+        "/",
+        "/",
+        "/chi-siamo.html",
+        "/servizi.html",
+        "/portfolio.html",
+        "/innovation-hub.html",
+        "/contatti.html",
+        "/contatti.html",
+        "/portfolio.html#luxury-living-group",
+        "/contatti.html",
+        "/digital-experience.html",
+        "/",
+        "/software-custom.html",
+        "/spatial-computing.html",
+        "/ai-applicata.html",
+        "/digital-experience.html",
+        "/servizi.html",
+        "/servizi.html",
+        "/chi-siamo.html",
+        "/portfolio.html",
+        "/innovation-hub.html",
+        "/contatti.html",
+        "mailto:info@touchlabs.it",
+        "mailto:info@touchlabs.it",
+        "/privacy.html",
+        "/cookie.html"
+      ],
+      "imgs": [
+        "/assets/js/head.js",
+        "/assets/img/logos/logo-white.png",
+        "/assets/img/projects/luxury-living-group/gallery-configuratore.gif",
+        "/assets/img/projects/luxury-living-group/video-poster.jpg",
+        "/assets/video/configuratore.mp4",
+        "/assets/img/projects/luxury-living-group/gallery-gruppo-3.jpg",
+        "/assets/img/projects/luxury-living-group/gallery-chi07.jpg",
+        "/assets/img/projects/luxury-living-group/gallery-chi08.jpg",
+        "/assets/img/projects/luxury-living-group/gallery-gruppo-3-copia.jpg",
+        "/assets/img/projects/luxury-living-group/gallery-fendi.gif",
+        "/assets/img/logos/logo-white.png",
+        "/assets/js/main.js"
+      ],
+      "videos": [
+        {
+          "poster": "/assets/img/projects/luxury-living-group/video-poster.jpg",
+          "preload": "metadata",
+          "autoplay": true,
+          "muted": true,
+          "playsinline": true,
+          "aria": "Video — configuratore Luxury Living Group"
+        }
+      ],
+      "sources": [
+        "/assets/video/configuratore.mp4"
+      ],
+      "anchors": [
+        "main-content"
+      ],
+      "oldUrls": 0
+    },
+    {
+      "pageFile": "nottetempo.html",
+      "pagePath": "/nottetempo.html",
+      "title": "Nottetempo — Touchlabs | Teatro immersivo in realtà virtuale",
+      "h1s": 1,
+      "links": [
+        "https://www.touchlabs.it/nottetempo.html",
+        "/assets/img/logos/favicon.svg",
+        "/assets/img/logos/apple-touch-icon.svg",
+        "/assets/css/fonts.css",
+        "/assets/css/style.css",
+        "/",
+        "/",
+        "/chi-siamo.html",
+        "/servizi.html",
+        "/portfolio.html",
+        "/innovation-hub.html",
+        "/contatti.html",
+        "/contatti.html",
+        "/portfolio.html#nottetempo",
+        "/contatti.html",
+        "/portfolio.html",
+        "/",
+        "/software-custom.html",
+        "/spatial-computing.html",
+        "/ai-applicata.html",
+        "/digital-experience.html",
+        "/servizi.html",
+        "/servizi.html",
+        "/chi-siamo.html",
+        "/portfolio.html",
+        "/innovation-hub.html",
+        "/contatti.html",
+        "mailto:info@touchlabs.it",
+        "mailto:info@touchlabs.it",
+        "/privacy.html",
+        "/cookie.html"
+      ],
+      "imgs": [
+        "/assets/js/head.js",
+        "/assets/img/logos/logo-white.png",
+        "/assets/img/projects/nottetempo/hero.jpg",
+        "/assets/img/projects/nottetempo/cover.jpg",
+        "/assets/video/nottetempo/nottetempo.mp4",
+        "/assets/img/projects/nottetempo/gallery-01.jpg",
+        "/assets/img/projects/nottetempo/gallery-02.jpg",
+        "/assets/img/projects/nottetempo/gallery-03.jpg",
+        "/assets/img/projects/nottetempo/gallery-06.jpg",
+        "/assets/img/logos/logo-white.png",
+        "/assets/js/main.js"
+      ],
+      "videos": [
+        {
+          "poster": "/assets/img/projects/nottetempo/cover.jpg",
+          "preload": "metadata",
+          "autoplay": false,
+          "muted": false,
+          "playsinline": true,
+          "aria": "Video — Nottetempo, esperienza VR teatrale"
+        }
+      ],
+      "sources": [
+        "/assets/video/nottetempo/nottetempo.mp4"
+      ],
+      "anchors": [
+        "main-content"
+      ],
+      "oldUrls": 0
+    },
+    {
+      "pageFile": "portfolio.html",
+      "pagePath": "/portfolio.html",
+      "title": "Portfolio — Touchlabs | Progetti reali: medicale, industria, AR e software custom",
+      "h1s": 1,
+      "links": [
+        "https://www.touchlabs.it/portfolio.html",
+        "/assets/img/logos/favicon.svg",
+        "/assets/img/logos/apple-touch-icon.svg",
+        "/assets/css/fonts.css",
+        "/assets/css/style.css",
+        "/",
+        "/",
+        "/chi-siamo.html",
+        "/servizi.html",
+        "/portfolio.html",
+        "/innovation-hub.html",
+        "/contatti.html",
+        "/contatti.html",
+        "/surgeree.html",
+        "/scattolini.html",
+        "/luxury-living-group.html",
+        "/nottetempo.html",
+        "/il-labirinto.html",
+        "/br1ng.html",
+        "/digital-experience.html#itm-monoblock",
+        "/contatti.html",
+        "/servizi.html",
+        "/",
+        "/software-custom.html",
+        "/spatial-computing.html",
+        "/ai-applicata.html",
+        "/digital-experience.html",
+        "/servizi.html",
+        "/servizi.html",
+        "/chi-siamo.html",
+        "/portfolio.html",
+        "/innovation-hub.html",
+        "/contatti.html",
+        "mailto:info@touchlabs.it",
+        "mailto:info@touchlabs.it",
+        "/privacy.html",
+        "/cookie.html"
+      ],
+      "imgs": [
+        "/assets/js/head.js",
+        "/assets/img/logos/logo-white.png",
+        "/assets/img/company/touchlabs-showreel-poster.jpg",
+        "/assets/img/projects/surgeree/surgeree-video-poster.jpg",
+        "/assets/video/surgeree/surgeree-demo.webm",
+        "/assets/video/surgeree/surgeree-demo-compressed.mp4",
+        "/assets/img/projects/configuratore_scattolini/hero.jpg",
+        "/assets/img/projects/luxury-living-group/video-poster.jpg",
+        "/assets/video/configuratore.mp4",
+        "/assets/img/projects/nottetempo/cover.jpg",
+        "/assets/video/nottetempo/nottetempo.mp4",
+        "/assets/img/projects/labirinto/gallery-scena.jpg",
+        "/assets/img/projects/br1ng/hero.jpg",
+        "/assets/video/br1ng/br1ng.mp4",
+        "/assets/img/projects/itm-monoblock/video-poster.jpg",
+        "/assets/video/itm-monoblock/itm-monoblock.webm",
+        "/assets/video/itm-monoblock/itm-monoblock-compressed.mp4",
+        "/assets/img/logos/logo-white.png",
+        "/assets/js/main.js"
+      ],
+      "videos": [
+        {
+          "poster": "/assets/img/projects/surgeree/surgeree-video-poster.jpg",
+          "preload": "none",
+          "autoplay": false,
+          "muted": true,
+          "playsinline": true,
+          "aria": "Anteprima video — Surgeree, piattaforma immersiva chirurgica"
+        },
+        {
+          "poster": "/assets/img/projects/luxury-living-group/video-poster.jpg",
+          "preload": "none",
+          "autoplay": false,
+          "muted": true,
+          "playsinline": true,
+          "aria": "Anteprima video — Luxury Living Group, configuratore 3D"
+        },
+        {
+          "poster": "/assets/img/projects/nottetempo/cover.jpg",
+          "preload": "none",
+          "autoplay": false,
+          "muted": true,
+          "playsinline": true,
+          "aria": "Anteprima video — Nottetempo, esperienza teatrale in VR"
+        },
+        {
+          "poster": "/assets/img/projects/br1ng/hero.jpg",
+          "preload": "none",
+          "autoplay": false,
+          "muted": true,
+          "playsinline": true,
+          "aria": "Anteprima video — b-r1ng®"
+        },
+        {
+          "poster": "/assets/img/projects/itm-monoblock/video-poster.jpg",
+          "preload": "none",
+          "autoplay": false,
+          "muted": true,
+          "playsinline": true,
+          "aria": "Anteprima video — ITM Monoblock, video CGI prodotto industriale"
+        }
+      ],
+      "sources": [
+        "/assets/video/surgeree/surgeree-demo.webm",
+        "/assets/video/surgeree/surgeree-demo-compressed.mp4",
+        "/assets/video/configuratore.mp4",
+        "/assets/video/nottetempo/nottetempo.mp4",
+        "/assets/video/br1ng/br1ng.mp4",
+        "/assets/video/itm-monoblock/itm-monoblock.webm",
+        "/assets/video/itm-monoblock/itm-monoblock-compressed.mp4"
+      ],
+      "anchors": [
+        "main-content",
+        "surgeree"
+      ],
+      "oldUrls": 0
+    },
+    {
+      "pageFile": "privacy.html",
+      "pagePath": "/privacy.html",
+      "title": "Privacy policy — Touchlabs",
+      "h1s": 1,
+      "links": [
+        "https://www.touchlabs.it/privacy.html",
+        "/assets/img/logos/favicon.svg",
+        "/assets/css/fonts.css",
+        "/assets/css/style.css",
+        "/",
+        "/",
+        "/chi-siamo.html",
+        "/servizi.html",
+        "/portfolio.html",
+        "/innovation-hub.html",
+        "/contatti.html",
+        "/contatti.html",
+        "mailto:info@touchlabs.it",
+        "mailto:info@touchlabs.it",
+        "/cookie.html",
+        "/",
+        "/software-custom.html",
+        "/spatial-computing.html",
+        "/ai-applicata.html",
+        "/digital-experience.html",
+        "/chi-siamo.html",
+        "/contatti.html",
+        "mailto:info@touchlabs.it",
+        "mailto:info@touchlabs.it",
+        "/privacy.html",
+        "/cookie.html"
+      ],
+      "imgs": [
+        "/assets/js/head.js",
+        "/assets/img/logos/logo-white.png",
+        "/assets/img/logos/logo-white.png",
+        "/assets/js/main.js"
+      ],
+      "videos": [],
+      "sources": [],
+      "anchors": [
+        "main-content"
+      ],
+      "oldUrls": 0
+    },
+    {
+      "pageFile": "scattolini.html",
+      "pagePath": "/scattolini.html",
+      "title": "Scattolini S.p.A. — Touchlabs | Configuratore 3D e integrazione SAP",
+      "h1s": 1,
+      "links": [
+        "https://www.touchlabs.it/scattolini.html",
+        "/assets/img/logos/favicon.svg",
+        "/assets/img/logos/apple-touch-icon.svg",
+        "/assets/css/fonts.css",
+        "/assets/css/style.css",
+        "/",
+        "/",
+        "/chi-siamo.html",
+        "/servizi.html",
+        "/portfolio.html",
+        "/innovation-hub.html",
+        "/contatti.html",
+        "/contatti.html",
+        "/portfolio.html#scattolini",
+        "/contatti.html",
+        "/software-custom.html",
+        "/",
+        "/software-custom.html",
+        "/spatial-computing.html",
+        "/ai-applicata.html",
+        "/digital-experience.html",
+        "/servizi.html",
+        "/servizi.html",
+        "/chi-siamo.html",
+        "/portfolio.html",
+        "/innovation-hub.html",
+        "/contatti.html",
+        "mailto:info@touchlabs.it",
+        "mailto:info@touchlabs.it",
+        "/privacy.html",
+        "/cookie.html"
+      ],
+      "imgs": [
+        "/assets/js/head.js",
+        "/assets/img/logos/logo-white.png",
+        "/assets/img/projects/configuratore_scattolini/hero.jpg",
+        "/assets/img/projects/configuratore_scattolini/configurazioni.jpg",
+        "/assets/video/configuratore_scattolini/scattolini_video.mp4",
+        "/assets/img/projects/configuratore_scattolini/dashboard.jpg",
+        "/assets/img/projects/configuratore_scattolini/catalogo.jpg",
+        "/assets/img/projects/configuratore_scattolini/configurazioni.jpg",
+        "/assets/img/projects/configuratore_scattolini/ricambi.jpg",
+        "/assets/img/logos/logo-white.png",
+        "/assets/js/main.js"
+      ],
+      "videos": [
+        {
+          "poster": "/assets/img/projects/configuratore_scattolini/configurazioni.jpg",
+          "preload": "metadata",
+          "autoplay": false,
+          "muted": false,
+          "playsinline": true,
+          "aria": "Video — configuratore Scattolini S.p.A."
+        }
+      ],
+      "sources": [
+        "/assets/video/configuratore_scattolini/scattolini_video.mp4"
+      ],
+      "anchors": [
+        "main-content"
+      ],
+      "oldUrls": 0
+    },
+    {
+      "pageFile": "servizi.html",
+      "pagePath": "/servizi.html",
+      "title": "Servizi — Touchlabs | Software custom, AI e Spatial Computing per aziende",
+      "h1s": 1,
+      "links": [
+        "https://www.touchlabs.it/servizi.html",
+        "/assets/img/logos/favicon.svg",
+        "/assets/img/logos/apple-touch-icon.svg",
+        "/assets/css/fonts.css",
+        "/assets/css/style.css",
+        "/",
+        "/",
+        "/chi-siamo.html",
+        "/servizi.html",
+        "/portfolio.html",
+        "/innovation-hub.html",
+        "/contatti.html",
+        "/contatti.html",
+        "/spatial-computing.html",
+        "/surgeree.html",
+        "/ai-applicata.html",
+        "/software-custom.html",
+        "/scattolini.html",
+        "/digital-experience.html",
+        "/scattolini.html",
+        "/contatti.html",
+        "/portfolio.html",
+        "/",
+        "/software-custom.html",
+        "/spatial-computing.html",
+        "/ai-applicata.html",
+        "/digital-experience.html",
+        "/servizi.html",
+        "/servizi.html",
+        "/chi-siamo.html",
+        "/portfolio.html",
+        "/innovation-hub.html",
+        "/contatti.html",
+        "mailto:info@touchlabs.it",
+        "mailto:info@touchlabs.it",
+        "/privacy.html",
+        "/cookie.html"
+      ],
+      "imgs": [
+        "/assets/js/head.js",
+        "/assets/img/logos/logo-white.png",
+        "/assets/img/illustrations/services-overview.jpg",
+        "/assets/img/projects/surgeree/gallery-neurosurgery.jpg",
+        "/assets/img/projects/surgeree/gallery-dicom.jpg",
+        "/assets/img/illustrations/hero-composition.jpg",
+        "/assets/img/projects/labirinto/cover.png",
+        "/assets/img/logos/logo-white.png",
+        "/assets/js/main.js"
+      ],
+      "videos": [],
+      "sources": [],
+      "anchors": [
+        "main-content",
+        "spatial-computing",
+        "artificial-intelligence",
+        "software-engineering",
+        "digital-experience"
+      ],
+      "oldUrls": 0
+    },
+    {
+      "pageFile": "software-custom.html",
+      "pagePath": "/software-custom.html",
+      "title": "Software Engineering — Touchlabs | Software custom su misura per aziende",
+      "h1s": 1,
+      "links": [
+        "https://www.touchlabs.it/software-custom.html",
+        "/assets/img/logos/favicon.svg",
+        "/assets/img/logos/apple-touch-icon.svg",
+        "/assets/css/fonts.css",
+        "/assets/css/style.css",
+        "/",
+        "/",
+        "/chi-siamo.html",
+        "/servizi.html",
+        "/portfolio.html",
+        "/innovation-hub.html",
+        "/contatti.html",
+        "/contatti.html",
+        "/contatti.html",
+        "/spatial-computing.html",
+        "/ai-applicata.html",
+        "/digital-experience.html",
+        "/servizi.html",
+        "/scattolini.html",
+        "/contatti.html",
+        "/",
+        "/software-custom.html",
+        "/spatial-computing.html",
+        "/ai-applicata.html",
+        "/digital-experience.html",
+        "/servizi.html",
+        "/servizi.html",
+        "/chi-siamo.html",
+        "/portfolio.html",
+        "/innovation-hub.html",
+        "/contatti.html",
+        "mailto:info@touchlabs.it",
+        "mailto:info@touchlabs.it",
+        "/privacy.html",
+        "/cookie.html"
+      ],
+      "imgs": [
+        "/assets/js/head.js",
+        "/assets/img/logos/logo-white.png",
+        "/assets/img/illustrations/hero-composition.jpg",
+        "/assets/img/projects/surgeree/gallery-monitors.jpg",
+        "/assets/img/logos/logo-white.png",
+        "/assets/js/main.js"
+      ],
+      "videos": [],
+      "sources": [],
+      "anchors": [
+        "main-content"
+      ],
+      "oldUrls": 0
+    },
+    {
+      "pageFile": "spatial-computing.html",
+      "pagePath": "/spatial-computing.html",
+      "title": "Spatial Computing — Touchlabs | Esperienze immersive per processi aziendali",
+      "h1s": 1,
+      "links": [
+        "https://www.touchlabs.it/spatial-computing.html",
+        "/assets/img/logos/favicon.svg",
+        "/assets/img/logos/apple-touch-icon.svg",
+        "/assets/css/fonts.css",
+        "/assets/css/style.css",
+        "/",
+        "/",
+        "/chi-siamo.html",
+        "/servizi.html",
+        "/portfolio.html",
+        "/innovation-hub.html",
+        "/contatti.html",
+        "/contatti.html",
+        "/contatti.html",
+        "/ai-applicata.html",
+        "/software-custom.html",
+        "/digital-experience.html",
+        "/servizi.html",
+        "/il-labirinto.html",
+        "/surgeree.html",
+        "/scattolini.html",
+        "/il-labirinto.html",
+        "/nottetempo.html",
+        "/portfolio.html",
+        "/contatti.html",
+        "/innovation-hub.html",
+        "/",
+        "/software-custom.html",
+        "/spatial-computing.html",
+        "/ai-applicata.html",
+        "/digital-experience.html",
+        "/servizi.html",
+        "/servizi.html",
+        "/chi-siamo.html",
+        "/portfolio.html",
+        "/innovation-hub.html",
+        "/contatti.html",
+        "mailto:info@touchlabs.it",
+        "mailto:info@touchlabs.it",
+        "/privacy.html",
+        "/cookie.html"
+      ],
+      "imgs": [
+        "/assets/js/head.js",
+        "/assets/img/logos/logo-white.png",
+        "/assets/img/projects/surgeree/hero.jpg",
+        "/assets/img/projects/surgeree/gallery-dicom.jpg",
+        "/assets/img/projects/surgeree/gallery-segmentation.jpg",
+        "/assets/img/projects/surgeree/gallery-overlay.jpg",
+        "/assets/img/projects/labirinto/cover.png",
+        "/assets/img/projects/labirinto/labirinto.mp4",
+        "/assets/img/projects/surgeree/gallery-neurosurgery.jpg",
+        "/assets/img/logos/logo-white.png",
+        "/assets/js/main.js"
+      ],
+      "videos": [
+        {
+          "poster": "/assets/img/projects/labirinto/cover.png",
+          "preload": "metadata",
+          "autoplay": true,
+          "muted": true,
+          "playsinline": true,
+          "aria": "Il Labirinto — esperienza immersiva in realtà virtuale"
+        }
+      ],
+      "sources": [
+        "/assets/img/projects/labirinto/labirinto.mp4"
+      ],
+      "anchors": [
+        "main-content"
+      ],
+      "oldUrls": 0
+    },
+    {
+      "pageFile": "surgeree.html",
+      "pagePath": "/surgeree.html",
+      "title": "Surgeree — Touchlabs | Formazione chirurgica immersiva e Spatial Computing",
+      "h1s": 1,
+      "links": [
+        "https://www.touchlabs.it/surgeree.html",
+        "/assets/img/logos/favicon.svg",
+        "/assets/img/logos/apple-touch-icon.svg",
+        "/assets/css/fonts.css",
+        "/assets/css/style.css",
+        "/",
+        "/",
+        "/chi-siamo.html",
+        "/servizi.html",
+        "/portfolio.html",
+        "/innovation-hub.html",
+        "/contatti.html",
+        "/contatti.html",
+        "/portfolio.html#surgeree",
+        "/contatti.html",
+        "/portfolio.html",
+        "/",
+        "/software-custom.html",
+        "/spatial-computing.html",
+        "/ai-applicata.html",
+        "/digital-experience.html",
+        "/servizi.html",
+        "/servizi.html",
+        "/chi-siamo.html",
+        "/portfolio.html",
+        "/innovation-hub.html",
+        "/contatti.html",
+        "mailto:info@touchlabs.it",
+        "mailto:info@touchlabs.it",
+        "/privacy.html",
+        "/cookie.html"
+      ],
+      "imgs": [
+        "/assets/js/head.js",
+        "/assets/img/logos/logo-white.png",
+        "/assets/img/projects/surgeree/hero.jpg",
+        "/assets/img/projects/surgeree/gallery-monitors.jpg",
+        "/assets/img/projects/surgeree/gallery-dicom.jpg",
+        "/assets/img/projects/surgeree/gallery-overlay.jpg",
+        "/assets/img/projects/surgeree/surgeree-video-poster.jpg",
+        "/assets/video/surgeree/surgeree-demo.webm",
+        "/assets/video/surgeree/surgeree-demo-compressed.mp4",
+        "/assets/img/projects/surgeree/gallery-neurosurgery.jpg",
+        "/assets/img/projects/surgeree/gallery-endoscopy.jpg",
+        "/assets/img/projects/surgeree/gallery-segmentation.jpg",
+        "/assets/img/projects/surgeree/gallery-surgery.jpg",
+        "/assets/img/projects/surgeree/gallery-report.jpg",
+        "/assets/img/projects/surgeree/hero.jpg",
+        "/assets/img/logos/logo-white.png",
+        "/assets/js/main.js"
+      ],
+      "videos": [
+        {
+          "poster": "/assets/img/projects/surgeree/surgeree-video-poster.jpg",
+          "preload": "metadata",
+          "autoplay": true,
+          "muted": true,
+          "playsinline": true,
+          "aria": "Video — Surgeree, piattaforma immersiva per il contesto chirurgico"
+        }
+      ],
+      "sources": [
+        "/assets/video/surgeree/surgeree-demo.webm",
+        "/assets/video/surgeree/surgeree-demo-compressed.mp4"
+      ],
+      "anchors": [
+        "main-content"
+      ],
+      "oldUrls": 0
+    }
+  ],
+  "missingAssets": [],
+  "linkReport": {
+    "broken": [],
+    "anchorIssues": [],
+    "unreachable": [
+      "/configuratori-3d.html"
+    ],
+    "linked": [
+      "/",
+      "/ai-applicata.html",
+      "/assets/css/fonts.css",
+      "/assets/css/style.css",
+      "/assets/img/logos/apple-touch-icon.svg",
+      "/assets/img/logos/favicon.svg",
+      "/br1ng.html",
+      "/chi-siamo.html",
+      "/contatti.html",
+      "/cookie.html",
+      "/digital-experience.html",
+      "/il-labirinto.html",
+      "/innovation-hub.html",
+      "/luxury-living-group.html",
+      "/nottetempo.html",
+      "/portfolio.html",
+      "/privacy.html",
+      "/scattolini.html",
+      "/servizi.html",
+      "/software-custom.html",
+      "/spatial-computing.html",
+      "/surgeree.html"
+    ]
+  },
+  "formResults": [
+    {
+      "test": "missing name",
+      "status": 422,
+      "data": {
+        "ok": false,
+        "errors": {
+          "name": "Inserisci il nome."
+        }
+      }
+    },
+    {
+      "test": "invalid email",
+      "status": 422,
+      "data": {
+        "ok": false,
+        "errors": {
+          "email": "Inserisci un indirizzo email valido."
+        }
+      }
+    },
+    {
+      "test": "missing privacy",
+      "status": 422,
+      "data": {
+        "ok": false,
+        "errors": {
+          "privacy_consent": "È necessario accettare l'informativa privacy."
+        }
+      }
+    },
+    {
+      "test": "honeypot filled",
+      "status": 200,
+      "data": {
+        "ok": true,
+        "message": "Richiesta inviata. Ti risponderemo al più presto."
+      }
+    },
+    {
+      "test": "valid no smtp",
+      "status": 503,
+      "data": {
+        "ok": false,
+        "error": "Servizio email non configurato. Contattaci a info@touchlabs.it."
+      }
+    }
+  ],
+  "videoInventory": [
+    {
+      "page": "br1ng.html",
+      "src": "/assets/video/br1ng/br1ng.mp4",
+      "sizeBytes": 8603275,
+      "sizeMB": "8.20",
+      "poster": "/assets/img/projects/br1ng/hero.jpg",
+      "preload": "metadata",
+      "autoplayHtml": true,
+      "muted": true,
+      "playsinline": true
+    },
+    {
+      "page": "digital-experience.html",
+      "src": "/assets/video/itm-monoblock/itm-monoblock.webm",
+      "sizeBytes": 2833790,
+      "sizeMB": "2.70",
+      "poster": "/assets/img/projects/itm-monoblock/video-poster.jpg",
+      "preload": "metadata",
+      "autoplayHtml": true,
+      "muted": true,
+      "playsinline": true
+    },
+    {
+      "page": "digital-experience.html",
+      "src": "/assets/video/itm-monoblock/itm-monoblock-compressed.mp4",
+      "sizeBytes": 1968411,
+      "sizeMB": "1.88",
+      "poster": "/assets/img/projects/itm-monoblock/video-poster.jpg",
+      "preload": "metadata",
+      "autoplayHtml": true,
+      "muted": true,
+      "playsinline": true
+    },
+    {
+      "page": "il-labirinto.html",
+      "src": "/assets/img/projects/labirinto/labirinto.mp4",
+      "sizeBytes": 14369708,
+      "sizeMB": "13.70",
+      "poster": "/assets/img/projects/labirinto/cover.png",
+      "preload": "metadata",
+      "autoplayHtml": false,
+      "muted": false,
+      "playsinline": true
+    },
+    {
+      "page": "index.html",
+      "src": "/assets/video/touchlabs-showreel.webm",
+      "sizeBytes": 19098458,
+      "sizeMB": "18.21",
+      "poster": "/assets/video/configuratore_clubhouse/configuratore-poster.jpg",
+      "preload": "metadata",
+      "autoplayHtml": false,
+      "muted": true,
+      "playsinline": true
+    },
+    {
+      "page": "index.html",
+      "src": "/assets/video/touchlabs-showreel-compressed.mp4",
+      "sizeBytes": 29460938,
+      "sizeMB": "28.10",
+      "poster": "/assets/video/haier/haier-poster.jpg",
+      "preload": "metadata",
+      "autoplayHtml": false,
+      "muted": true,
+      "playsinline": true
+    },
+    {
+      "page": "index.html",
+      "src": "/assets/video/configuratore_clubhouse/configuratore.webm",
+      "sizeBytes": 4237811,
+      "sizeMB": "4.04",
+      "poster": "/assets/img/company/touchlabs-showreel-poster.jpg",
+      "preload": "metadata",
+      "autoplayHtml": true,
+      "muted": true,
+      "playsinline": true
+    },
+    {
+      "page": "index.html",
+      "src": "/assets/video/configuratore_clubhouse/configuratore-compressed.mp4",
+      "sizeBytes": 8320079,
+      "sizeMB": "7.93",
+      "poster": "/assets/video/configuratore_clubhouse/configuratore-poster.jpg",
+      "preload": "metadata",
+      "autoplayHtml": false,
+      "muted": true,
+      "playsinline": true
+    },
+    {
+      "page": "index.html",
+      "src": "/assets/video/haier/haier.webm",
+      "sizeBytes": 1989532,
+      "sizeMB": "1.90",
+      "poster": "/assets/video/haier/haier-poster.jpg",
+      "preload": "metadata",
+      "autoplayHtml": false,
+      "muted": true,
+      "playsinline": true
+    },
+    {
+      "page": "index.html",
+      "src": "/assets/video/haier/haier-compressed.mp4",
+      "sizeBytes": 2793373,
+      "sizeMB": "2.66",
+      "poster": "/assets/img/company/touchlabs-showreel-poster.jpg",
+      "preload": "metadata",
+      "autoplayHtml": true,
+      "muted": true,
+      "playsinline": true
+    },
+    {
+      "page": "luxury-living-group.html",
+      "src": "/assets/video/configuratore.mp4",
+      "sizeBytes": 8320079,
+      "sizeMB": "7.93",
+      "poster": "/assets/img/projects/luxury-living-group/video-poster.jpg",
+      "preload": "metadata",
+      "autoplayHtml": true,
+      "muted": true,
+      "playsinline": true
+    },
+    {
+      "page": "nottetempo.html",
+      "src": "/assets/video/nottetempo/nottetempo.mp4",
+      "sizeBytes": 6268959,
+      "sizeMB": "5.98",
+      "poster": "/assets/img/projects/nottetempo/cover.jpg",
+      "preload": "metadata",
+      "autoplayHtml": false,
+      "muted": false,
+      "playsinline": true
+    },
+    {
+      "page": "portfolio.html",
+      "src": "/assets/video/surgeree/surgeree-demo.webm",
+      "sizeBytes": 5290087,
+      "sizeMB": "5.05",
+      "poster": "/assets/img/projects/nottetempo/cover.jpg",
+      "preload": "none",
+      "autoplayHtml": false,
+      "muted": true,
+      "playsinline": true
+    },
+    {
+      "page": "portfolio.html",
+      "src": "/assets/video/surgeree/surgeree-demo-compressed.mp4",
+      "sizeBytes": 5622559,
+      "sizeMB": "5.36",
+      "poster": "/assets/img/projects/br1ng/hero.jpg",
+      "preload": "none",
+      "autoplayHtml": false,
+      "muted": true,
+      "playsinline": true
+    },
+    {
+      "page": "portfolio.html",
+      "src": "/assets/video/configuratore.mp4",
+      "sizeBytes": 8320079,
+      "sizeMB": "7.93",
+      "poster": "/assets/img/projects/itm-monoblock/video-poster.jpg",
+      "preload": "none",
+      "autoplayHtml": false,
+      "muted": true,
+      "playsinline": true
+    },
+    {
+      "page": "portfolio.html",
+      "src": "/assets/video/nottetempo/nottetempo.mp4",
+      "sizeBytes": 6268959,
+      "sizeMB": "5.98",
+      "poster": "/assets/img/projects/surgeree/surgeree-video-poster.jpg",
+      "preload": "none",
+      "autoplayHtml": false,
+      "muted": true,
+      "playsinline": true
+    },
+    {
+      "page": "portfolio.html",
+      "src": "/assets/video/br1ng/br1ng.mp4",
+      "sizeBytes": 8603275,
+      "sizeMB": "8.20",
+      "poster": "/assets/img/projects/luxury-living-group/video-poster.jpg",
+      "preload": "none",
+      "autoplayHtml": false,
+      "muted": true,
+      "playsinline": true
+    },
+    {
+      "page": "portfolio.html",
+      "src": "/assets/video/itm-monoblock/itm-monoblock.webm",
+      "sizeBytes": 2833790,
+      "sizeMB": "2.70",
+      "poster": "/assets/img/projects/nottetempo/cover.jpg",
+      "preload": "none",
+      "autoplayHtml": false,
+      "muted": true,
+      "playsinline": true
+    },
+    {
+      "page": "portfolio.html",
+      "src": "/assets/video/itm-monoblock/itm-monoblock-compressed.mp4",
+      "sizeBytes": 1968411,
+      "sizeMB": "1.88",
+      "poster": "/assets/img/projects/br1ng/hero.jpg",
+      "preload": "none",
+      "autoplayHtml": false,
+      "muted": true,
+      "playsinline": true
+    },
+    {
+      "page": "scattolini.html",
+      "src": "/assets/video/configuratore_scattolini/scattolini_video.mp4",
+      "sizeBytes": 3426427,
+      "sizeMB": "3.27",
+      "poster": "/assets/img/projects/configuratore_scattolini/configurazioni.jpg",
+      "preload": "metadata",
+      "autoplayHtml": false,
+      "muted": false,
+      "playsinline": true
+    },
+    {
+      "page": "spatial-computing.html",
+      "src": "/assets/img/projects/labirinto/labirinto.mp4",
+      "sizeBytes": 14369708,
+      "sizeMB": "13.70",
+      "poster": "/assets/img/projects/labirinto/cover.png",
+      "preload": "metadata",
+      "autoplayHtml": true,
+      "muted": true,
+      "playsinline": true
+    },
+    {
+      "page": "surgeree.html",
+      "src": "/assets/video/surgeree/surgeree-demo.webm",
+      "sizeBytes": 5290087,
+      "sizeMB": "5.05",
+      "poster": "/assets/img/projects/surgeree/surgeree-video-poster.jpg",
+      "preload": "metadata",
+      "autoplayHtml": true,
+      "muted": true,
+      "playsinline": true
+    },
+    {
+      "page": "surgeree.html",
+      "src": "/assets/video/surgeree/surgeree-demo-compressed.mp4",
+      "sizeBytes": 5622559,
+      "sizeMB": "5.36",
+      "poster": "/assets/img/projects/surgeree/surgeree-video-poster.jpg",
+      "preload": "metadata",
+      "autoplayHtml": true,
+      "muted": true,
+      "playsinline": true
+    }
+  ],
+  "unreferencedAssets": [
+    {
+      "path": "/assets/video/haier/haier.mp4",
+      "sizeBytes": 10006954
+    },
+    {
+      "path": "/assets/video/surgeree/surgeree-demo.mp4",
+      "sizeBytes": 6079064
+    },
+    {
+      "path": "/assets/video/itm-monoblock/itm-monoblock.mp4",
+      "sizeBytes": 3371139
+    },
+    {
+      "path": "/assets/img/projects/itm-monoblock/preview-3.jpg",
+      "sizeBytes": 217078
+    },
+    {
+      "path": "/assets/img/projects/itm-monoblock/preview-4.jpg",
+      "sizeBytes": 214577
+    },
+    {
+      "path": "/assets/img/projects/itm-monoblock/preview-2.jpg",
+      "sizeBytes": 166058
+    },
+    {
+      "path": "/assets/img/projects/itm-monoblock/preview-1.jpg",
+      "sizeBytes": 160424
+    },
+    {
+      "path": "/assets/img/projects/nottetempo/gallery-08.jpg",
+      "sizeBytes": 140935
+    },
+    {
+      "path": "/assets/img/projects/nottetempo/gallery-04.jpg",
+      "sizeBytes": 122033
+    },
+    {
+      "path": "/assets/img/projects/nottetempo/gallery-09.jpg",
+      "sizeBytes": 111816
+    },
+    {
+      "path": "/assets/img/projects/nottetempo/gallery-07.jpg",
+      "sizeBytes": 74642
+    },
+    {
+      "path": "/assets/img/brand/og-image.svg",
+      "sizeBytes": 647
+    },
+    {
+      "path": "/assets/img/textures/placeholder.svg",
+      "sizeBytes": 440
+    },
+    {
+      "path": "/assets/img/lights/placeholder.svg",
+      "sizeBytes": 329
+    },
+    {
+      "path": "/assets/img/projects/placeholder.svg",
+      "sizeBytes": 248
+    },
+    {
+      "path": "/assets/img/brand/placeholder.svg",
+      "sizeBytes": 247
+    },
+    {
+      "path": "/assets/img/backgrounds/placeholder.svg",
+      "sizeBytes": 203
+    }
+  ],
+  "playwright": {
+    "responsive": [
+      {
+        "urlPath": "/",
+        "viewport": "1440x900",
+        "overflow": false,
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/chi-siamo.html",
+        "viewport": "1440x900",
+        "overflow": false,
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/servizi.html",
+        "viewport": "1440x900",
+        "overflow": false,
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/portfolio.html",
+        "viewport": "1440x900",
+        "overflow": false,
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/innovation-hub.html",
+        "viewport": "1440x900",
+        "overflow": false,
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/contatti.html",
+        "viewport": "1440x900",
+        "overflow": false,
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/spatial-computing.html",
+        "viewport": "1440x900",
+        "overflow": false,
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/ai-applicata.html",
+        "viewport": "1440x900",
+        "overflow": false,
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/software-custom.html",
+        "viewport": "1440x900",
+        "overflow": false,
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/digital-experience.html",
+        "viewport": "1440x900",
+        "overflow": false,
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/surgeree.html",
+        "viewport": "1440x900",
+        "overflow": false,
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/br1ng.html",
+        "viewport": "1440x900",
+        "overflow": false,
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/nottetempo.html",
+        "viewport": "1440x900",
+        "overflow": false,
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/scattolini.html",
+        "viewport": "1440x900",
+        "overflow": false,
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/il-labirinto.html",
+        "viewport": "1440x900",
+        "overflow": false,
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/luxury-living-group.html",
+        "viewport": "1440x900",
+        "overflow": false,
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/privacy.html",
+        "viewport": "1440x900",
+        "overflow": false,
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/cookie.html",
+        "viewport": "1440x900",
+        "overflow": false,
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/configuratori-3d.html",
+        "viewport": "1440x900",
+        "overflow": false,
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/",
+        "viewport": "1280x800",
+        "overflow": false,
+        "scrollWidth": 1280,
+        "clientWidth": 1280,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/chi-siamo.html",
+        "viewport": "1280x800",
+        "overflow": false,
+        "scrollWidth": 1280,
+        "clientWidth": 1280,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/servizi.html",
+        "viewport": "1280x800",
+        "overflow": false,
+        "scrollWidth": 1280,
+        "clientWidth": 1280,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/portfolio.html",
+        "viewport": "1280x800",
+        "overflow": false,
+        "scrollWidth": 1280,
+        "clientWidth": 1280,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/innovation-hub.html",
+        "viewport": "1280x800",
+        "overflow": false,
+        "scrollWidth": 1280,
+        "clientWidth": 1280,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/contatti.html",
+        "viewport": "1280x800",
+        "overflow": false,
+        "scrollWidth": 1280,
+        "clientWidth": 1280,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/spatial-computing.html",
+        "viewport": "1280x800",
+        "overflow": false,
+        "scrollWidth": 1280,
+        "clientWidth": 1280,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/ai-applicata.html",
+        "viewport": "1280x800",
+        "overflow": false,
+        "scrollWidth": 1280,
+        "clientWidth": 1280,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/software-custom.html",
+        "viewport": "1280x800",
+        "overflow": false,
+        "scrollWidth": 1280,
+        "clientWidth": 1280,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/digital-experience.html",
+        "viewport": "1280x800",
+        "overflow": false,
+        "scrollWidth": 1280,
+        "clientWidth": 1280,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/surgeree.html",
+        "viewport": "1280x800",
+        "overflow": false,
+        "scrollWidth": 1280,
+        "clientWidth": 1280,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/br1ng.html",
+        "viewport": "1280x800",
+        "overflow": false,
+        "scrollWidth": 1280,
+        "clientWidth": 1280,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/nottetempo.html",
+        "viewport": "1280x800",
+        "overflow": false,
+        "scrollWidth": 1280,
+        "clientWidth": 1280,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/scattolini.html",
+        "viewport": "1280x800",
+        "overflow": false,
+        "scrollWidth": 1280,
+        "clientWidth": 1280,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/il-labirinto.html",
+        "viewport": "1280x800",
+        "overflow": false,
+        "scrollWidth": 1280,
+        "clientWidth": 1280,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/luxury-living-group.html",
+        "viewport": "1280x800",
+        "overflow": false,
+        "scrollWidth": 1280,
+        "clientWidth": 1280,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/privacy.html",
+        "viewport": "1280x800",
+        "overflow": false,
+        "scrollWidth": 1280,
+        "clientWidth": 1280,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/cookie.html",
+        "viewport": "1280x800",
+        "overflow": false,
+        "scrollWidth": 1280,
+        "clientWidth": 1280,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/configuratori-3d.html",
+        "viewport": "1280x800",
+        "overflow": false,
+        "scrollWidth": 1280,
+        "clientWidth": 1280,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/",
+        "viewport": "1024x768",
+        "overflow": false,
+        "scrollWidth": 1024,
+        "clientWidth": 1024,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/chi-siamo.html",
+        "viewport": "1024x768",
+        "overflow": false,
+        "scrollWidth": 1024,
+        "clientWidth": 1024,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/servizi.html",
+        "viewport": "1024x768",
+        "overflow": false,
+        "scrollWidth": 1024,
+        "clientWidth": 1024,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/portfolio.html",
+        "viewport": "1024x768",
+        "overflow": false,
+        "scrollWidth": 1024,
+        "clientWidth": 1024,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/innovation-hub.html",
+        "viewport": "1024x768",
+        "overflow": false,
+        "scrollWidth": 1024,
+        "clientWidth": 1024,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/contatti.html",
+        "viewport": "1024x768",
+        "overflow": false,
+        "scrollWidth": 1024,
+        "clientWidth": 1024,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/spatial-computing.html",
+        "viewport": "1024x768",
+        "overflow": false,
+        "scrollWidth": 1024,
+        "clientWidth": 1024,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/ai-applicata.html",
+        "viewport": "1024x768",
+        "overflow": false,
+        "scrollWidth": 1024,
+        "clientWidth": 1024,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/software-custom.html",
+        "viewport": "1024x768",
+        "overflow": false,
+        "scrollWidth": 1024,
+        "clientWidth": 1024,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/digital-experience.html",
+        "viewport": "1024x768",
+        "overflow": false,
+        "scrollWidth": 1024,
+        "clientWidth": 1024,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/surgeree.html",
+        "viewport": "1024x768",
+        "overflow": false,
+        "scrollWidth": 1024,
+        "clientWidth": 1024,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/br1ng.html",
+        "viewport": "1024x768",
+        "overflow": false,
+        "scrollWidth": 1024,
+        "clientWidth": 1024,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/nottetempo.html",
+        "viewport": "1024x768",
+        "overflow": false,
+        "scrollWidth": 1024,
+        "clientWidth": 1024,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/scattolini.html",
+        "viewport": "1024x768",
+        "overflow": false,
+        "scrollWidth": 1024,
+        "clientWidth": 1024,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/il-labirinto.html",
+        "viewport": "1024x768",
+        "overflow": false,
+        "scrollWidth": 1024,
+        "clientWidth": 1024,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/luxury-living-group.html",
+        "viewport": "1024x768",
+        "overflow": false,
+        "scrollWidth": 1024,
+        "clientWidth": 1024,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/privacy.html",
+        "viewport": "1024x768",
+        "overflow": false,
+        "scrollWidth": 1024,
+        "clientWidth": 1024,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/cookie.html",
+        "viewport": "1024x768",
+        "overflow": false,
+        "scrollWidth": 1024,
+        "clientWidth": 1024,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/configuratori-3d.html",
+        "viewport": "1024x768",
+        "overflow": false,
+        "scrollWidth": 1024,
+        "clientWidth": 1024,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/",
+        "viewport": "768x1024",
+        "overflow": false,
+        "scrollWidth": 768,
+        "clientWidth": 768,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/chi-siamo.html",
+        "viewport": "768x1024",
+        "overflow": false,
+        "scrollWidth": 768,
+        "clientWidth": 768,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/servizi.html",
+        "viewport": "768x1024",
+        "overflow": false,
+        "scrollWidth": 768,
+        "clientWidth": 768,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/portfolio.html",
+        "viewport": "768x1024",
+        "overflow": false,
+        "scrollWidth": 768,
+        "clientWidth": 768,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/innovation-hub.html",
+        "viewport": "768x1024",
+        "overflow": false,
+        "scrollWidth": 768,
+        "clientWidth": 768,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/contatti.html",
+        "viewport": "768x1024",
+        "overflow": false,
+        "scrollWidth": 768,
+        "clientWidth": 768,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/spatial-computing.html",
+        "viewport": "768x1024",
+        "overflow": false,
+        "scrollWidth": 768,
+        "clientWidth": 768,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/ai-applicata.html",
+        "viewport": "768x1024",
+        "overflow": false,
+        "scrollWidth": 768,
+        "clientWidth": 768,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/software-custom.html",
+        "viewport": "768x1024",
+        "overflow": false,
+        "scrollWidth": 768,
+        "clientWidth": 768,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/digital-experience.html",
+        "viewport": "768x1024",
+        "overflow": false,
+        "scrollWidth": 768,
+        "clientWidth": 768,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/surgeree.html",
+        "viewport": "768x1024",
+        "overflow": false,
+        "scrollWidth": 768,
+        "clientWidth": 768,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/br1ng.html",
+        "viewport": "768x1024",
+        "overflow": false,
+        "scrollWidth": 768,
+        "clientWidth": 768,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/nottetempo.html",
+        "viewport": "768x1024",
+        "overflow": false,
+        "scrollWidth": 768,
+        "clientWidth": 768,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/scattolini.html",
+        "viewport": "768x1024",
+        "overflow": false,
+        "scrollWidth": 768,
+        "clientWidth": 768,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/il-labirinto.html",
+        "viewport": "768x1024",
+        "overflow": false,
+        "scrollWidth": 768,
+        "clientWidth": 768,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/luxury-living-group.html",
+        "viewport": "768x1024",
+        "overflow": false,
+        "scrollWidth": 768,
+        "clientWidth": 768,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/privacy.html",
+        "viewport": "768x1024",
+        "overflow": false,
+        "scrollWidth": 768,
+        "clientWidth": 768,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/cookie.html",
+        "viewport": "768x1024",
+        "overflow": false,
+        "scrollWidth": 768,
+        "clientWidth": 768,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/configuratori-3d.html",
+        "viewport": "768x1024",
+        "overflow": false,
+        "scrollWidth": 768,
+        "clientWidth": 768,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/",
+        "viewport": "390x844",
+        "overflow": false,
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/chi-siamo.html",
+        "viewport": "390x844",
+        "overflow": false,
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/servizi.html",
+        "viewport": "390x844",
+        "overflow": false,
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/portfolio.html",
+        "viewport": "390x844",
+        "overflow": false,
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/innovation-hub.html",
+        "viewport": "390x844",
+        "overflow": false,
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/contatti.html",
+        "viewport": "390x844",
+        "overflow": false,
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/spatial-computing.html",
+        "viewport": "390x844",
+        "overflow": false,
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/ai-applicata.html",
+        "viewport": "390x844",
+        "overflow": false,
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/software-custom.html",
+        "viewport": "390x844",
+        "overflow": false,
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/digital-experience.html",
+        "viewport": "390x844",
+        "overflow": false,
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/surgeree.html",
+        "viewport": "390x844",
+        "overflow": false,
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/br1ng.html",
+        "viewport": "390x844",
+        "overflow": false,
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/nottetempo.html",
+        "viewport": "390x844",
+        "overflow": false,
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/scattolini.html",
+        "viewport": "390x844",
+        "overflow": false,
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/il-labirinto.html",
+        "viewport": "390x844",
+        "overflow": false,
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/luxury-living-group.html",
+        "viewport": "390x844",
+        "overflow": false,
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/privacy.html",
+        "viewport": "390x844",
+        "overflow": false,
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/cookie.html",
+        "viewport": "390x844",
+        "overflow": false,
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/configuratori-3d.html",
+        "viewport": "390x844",
+        "overflow": false,
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/",
+        "viewport": "360x800",
+        "overflow": false,
+        "scrollWidth": 360,
+        "clientWidth": 360,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/chi-siamo.html",
+        "viewport": "360x800",
+        "overflow": false,
+        "scrollWidth": 360,
+        "clientWidth": 360,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/servizi.html",
+        "viewport": "360x800",
+        "overflow": false,
+        "scrollWidth": 360,
+        "clientWidth": 360,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/portfolio.html",
+        "viewport": "360x800",
+        "overflow": false,
+        "scrollWidth": 360,
+        "clientWidth": 360,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/innovation-hub.html",
+        "viewport": "360x800",
+        "overflow": false,
+        "scrollWidth": 360,
+        "clientWidth": 360,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/contatti.html",
+        "viewport": "360x800",
+        "overflow": false,
+        "scrollWidth": 360,
+        "clientWidth": 360,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/spatial-computing.html",
+        "viewport": "360x800",
+        "overflow": false,
+        "scrollWidth": 360,
+        "clientWidth": 360,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/ai-applicata.html",
+        "viewport": "360x800",
+        "overflow": false,
+        "scrollWidth": 360,
+        "clientWidth": 360,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/software-custom.html",
+        "viewport": "360x800",
+        "overflow": false,
+        "scrollWidth": 360,
+        "clientWidth": 360,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/digital-experience.html",
+        "viewport": "360x800",
+        "overflow": false,
+        "scrollWidth": 360,
+        "clientWidth": 360,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/surgeree.html",
+        "viewport": "360x800",
+        "overflow": false,
+        "scrollWidth": 360,
+        "clientWidth": 360,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/br1ng.html",
+        "viewport": "360x800",
+        "overflow": false,
+        "scrollWidth": 360,
+        "clientWidth": 360,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/nottetempo.html",
+        "viewport": "360x800",
+        "overflow": false,
+        "scrollWidth": 360,
+        "clientWidth": 360,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/scattolini.html",
+        "viewport": "360x800",
+        "overflow": false,
+        "scrollWidth": 360,
+        "clientWidth": 360,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/il-labirinto.html",
+        "viewport": "360x800",
+        "overflow": false,
+        "scrollWidth": 360,
+        "clientWidth": 360,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/luxury-living-group.html",
+        "viewport": "360x800",
+        "overflow": false,
+        "scrollWidth": 360,
+        "clientWidth": 360,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/privacy.html",
+        "viewport": "360x800",
+        "overflow": false,
+        "scrollWidth": 360,
+        "clientWidth": 360,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/cookie.html",
+        "viewport": "360x800",
+        "overflow": false,
+        "scrollWidth": 360,
+        "clientWidth": 360,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      },
+      {
+        "urlPath": "/configuratori-3d.html",
+        "viewport": "360x800",
+        "overflow": false,
+        "scrollWidth": 360,
+        "clientWidth": 360,
+        "h1Count": 1,
+        "skipLink": true,
+        "errors": 0
+      }
+    ],
+    "consoleErrors": [],
+    "videoBehavior": [
+      {
+        "mode": "desktop",
+        "playing": 1,
+        "playButtons": 0
+      },
+      {
+        "mode": "mobile",
+        "before": {
+          "autoplay": 0,
+          "visiblePlay": 5
+        },
+        "after": {
+          "paused": false,
+          "btnHidden": true
+        }
+      }
+    ]
+  }
+}

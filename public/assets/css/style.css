@@ -1310,15 +1310,14 @@ button {
 .footer {
   background: var(--color-bg-secondary);
   border-top: 1px solid var(--color-border);
-  padding-block: var(--space-7) var(--space-4);
+  padding: 4.75rem 0 2rem;
 }
 
 .footer__grid {
   display: grid;
   grid-template-columns: 1.5fr 1fr 1fr 1fr;
   gap: var(--space-6);
-  padding-bottom: var(--space-6);
-  border-bottom: 1px solid var(--color-border);
+  padding-bottom: 3.25rem;
 }
 
 .footer__logo {
@@ -1376,33 +1375,13 @@ button {
 }
 
 .footer__bottom {
-  padding-top: var(--space-4);
+  padding: 1.875rem 0 0;
   border-top: 1px solid rgba(255, 255, 255, 0.08);
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   gap: var(--space-3);
-}
-
-.footer__company {
-  margin-top: var(--space-5);
-  padding-top: var(--space-4);
-  border-top: 1px solid rgba(255, 255, 255, 0.08);
-}
-
-.footer__company-line {
-  font-size: 0.8125rem;
-  line-height: 1.7;
-  color: var(--color-text-secondary);
-}
-
-.footer__company-line a {
-  color: var(--color-text-secondary);
-}
-
-.footer__company-line a:hover {
-  color: var(--color-white);
 }
 
 .footer__legal {
@@ -5071,6 +5050,28 @@ a.contact-details__value:focus-visible {
   margin: var(--space-3) 0 var(--space-4);
 }
 
+.legal-callout code,
+.legal-prose code {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+@media (max-width: 767px) {
+  .legal-table {
+    table-layout: fixed;
+    width: 100%;
+  }
+
+  .legal-table th,
+  .legal-table td {
+    font-size: 0.75rem;
+    padding: var(--space-1) var(--space-2);
+    overflow-wrap: anywhere;
+    word-break: break-word;
+    hyphens: auto;
+  }
+}
+
 .legal-table th,
 .legal-table td {
   border: 1px solid var(--color-border-light);
@@ -5437,6 +5438,14 @@ a.contact-details__value:focus-visible {
     gap: var(--space-5);
   }
 
+  .footer__brand {
+    grid-column: 1 / -1;
+  }
+
+  .footer__col:last-child {
+    grid-column: 1 / -1;
+  }
+
   .navbar__nav {
     display: none;
     position: fixed;
@@ -5575,8 +5584,22 @@ a.contact-details__value:focus-visible {
   }
 
   .footer__grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: var(--space-4);
+  }
+
+  .footer__brand {
+    grid-column: 1 / -1;
+  }
+
+  .footer__col:last-child {
+    grid-column: 1 / -1;
+  }
+
+  .footer__bottom {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--space-3);
   }
 
   .case-study__visual-inner {

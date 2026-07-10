@@ -37,6 +37,8 @@ Queste attività restano **obbligatorie prima del go-live**. Non sono complete.
 | P1-12 | `--radius-xl` | ✅ | 20px in `:root` |
 | P1-13 | Token hero case study | ✅ | Token famiglie + `HERO_LAYOUT_EXCEPTIONS.md` |
 | P1-14 | REDIRECT_MAP | ✅ | Solo redirect verificato documentato |
+| V-001 | Overflow portfolio mobile | ✅ | `style.css` — min-height unset + contain grid |
+| V-016 | Icona play mobile portfolio | ✅ | `.portfolio-video-play` in `main.js` + CSS |
 
 **Smoke test:** [P1_SMOKE_TEST.md](./P1_SMOKE_TEST.md)
 

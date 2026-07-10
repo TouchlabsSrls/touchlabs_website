@@ -1,0 +1,182 @@
+[
+  {
+    "page": "index",
+    "vp": "1440x900",
+    "file": "docs/reviews/screenshots/footer-fix/index-1440x900.png",
+    "overflow": false,
+    "hasCompany": false,
+    "gridBorderBottom": "0px",
+    "bottomBorderTop": "1px"
+  },
+  {
+    "page": "servizi",
+    "vp": "1440x900",
+    "file": "docs/reviews/screenshots/footer-fix/servizi-1440x900.png",
+    "overflow": false,
+    "hasCompany": false,
+    "gridBorderBottom": "0px",
+    "bottomBorderTop": "1px"
+  },
+  {
+    "page": "portfolio",
+    "vp": "1440x900",
+    "file": "docs/reviews/screenshots/footer-fix/portfolio-1440x900.png",
+    "overflow": false,
+    "hasCompany": false,
+    "gridBorderBottom": "0px",
+    "bottomBorderTop": "1px"
+  },
+  {
+    "page": "contatti",
+    "vp": "1440x900",
+    "file": "docs/reviews/screenshots/footer-fix/contatti-1440x900.png",
+    "overflow": false,
+    "hasCompany": false,
+    "gridBorderBottom": "0px",
+    "bottomBorderTop": "1px"
+  },
+  {
+    "page": "surgeree",
+    "vp": "1440x900",
+    "file": "docs/reviews/screenshots/footer-fix/surgeree-1440x900.png",
+    "overflow": false,
+    "hasCompany": false,
+    "gridBorderBottom": "0px",
+    "bottomBorderTop": "1px"
+  },
+  {
+    "page": "index",
+    "vp": "768x1024",
+    "file": "docs/reviews/screenshots/footer-fix/index-768x1024.png",
+    "overflow": false,
+    "hasCompany": false,
+    "gridBorderBottom": "0px",
+    "bottomBorderTop": "1px"
+  },
+  {
+    "page": "servizi",
+    "vp": "768x1024",
+    "file": "docs/reviews/screenshots/footer-fix/servizi-768x1024.png",
+    "overflow": false,
+    "hasCompany": false,
+    "gridBorderBottom": "0px",
+    "bottomBorderTop": "1px"
+  },
+  {
+    "page": "portfolio",
+    "vp": "768x1024",
+    "file": "docs/reviews/screenshots/footer-fix/portfolio-768x1024.png",
+    "overflow": false,
+    "hasCompany": false,
+    "gridBorderBottom": "0px",
+    "bottomBorderTop": "1px"
+  },
+  {
+    "page": "contatti",
+    "vp": "768x1024",
+    "file": "docs/reviews/screenshots/footer-fix/contatti-768x1024.png",
+    "overflow": false,
+    "hasCompany": false,
+    "gridBorderBottom": "0px",
+    "bottomBorderTop": "1px"
+  },
+  {
+    "page": "surgeree",
+    "vp": "768x1024",
+    "file": "docs/reviews/screenshots/footer-fix/surgeree-768x1024.png",
+    "overflow": false,
+    "hasCompany": false,
+    "gridBorderBottom": "0px",
+    "bottomBorderTop": "1px"
+  },
+  {
+    "page": "index",
+    "vp": "390x844",
+    "file": "docs/reviews/screenshots/footer-fix/index-390x844.png",
+    "overflow": false,
+    "hasCompany": false,
+    "gridBorderBottom": "0px",
+    "bottomBorderTop": "1px"
+  },
+  {
+    "page": "servizi",
+    "vp": "390x844",
+    "file": "docs/reviews/screenshots/footer-fix/servizi-390x844.png",
+    "overflow": false,
+    "hasCompany": false,
+    "gridBorderBottom": "0px",
+    "bottomBorderTop": "1px"
+  },
+  {
+    "page": "portfolio",
+    "vp": "390x844",
+    "file": "docs/reviews/screenshots/footer-fix/portfolio-390x844.png",
+    "overflow": false,
+    "hasCompany": false,
+    "gridBorderBottom": "0px",
+    "bottomBorderTop": "1px"
+  },
+  {
+    "page": "contatti",
+    "vp": "390x844",
+    "file": "docs/reviews/screenshots/footer-fix/contatti-390x844.png",
+    "overflow": false,
+    "hasCompany": false,
+    "gridBorderBottom": "0px",
+    "bottomBorderTop": "1px"
+  },
+  {
+    "page": "surgeree",
+    "vp": "390x844",
+    "file": "docs/reviews/screenshots/footer-fix/surgeree-390x844.png",
+    "overflow": false,
+    "hasCompany": false,
+    "gridBorderBottom": "0px",
+    "bottomBorderTop": "1px"
+  },
+  {
+    "page": "index",
+    "vp": "360x800",
+    "file": "docs/reviews/screenshots/footer-fix/index-360x800.png",
+    "overflow": false,
+    "hasCompany": false,
+    "gridBorderBottom": "0px",
+    "bottomBorderTop": "1px"
+  },
+  {
+    "page": "servizi",
+    "vp": "360x800",
+    "file": "docs/reviews/screenshots/footer-fix/servizi-360x800.png",
+    "overflow": false,
+    "hasCompany": false,
+    "gridBorderBottom": "0px",
+    "bottomBorderTop": "1px"
+  },
+  {
+    "page": "portfolio",
+    "vp": "360x800",
+    "file": "docs/reviews/screenshots/footer-fix/portfolio-360x800.png",
+    "overflow": false,
+    "hasCompany": false,
+    "gridBorderBottom": "0px",
+    "bottomBorderTop": "1px"
+  },
+  {
+    "page": "contatti",
+    "vp": "360x800",
+    "file": "docs/reviews/screenshots/footer-fix/contatti-360x800.png",
+    "overflow": false,
+    "hasCompany": false,
+    "gridBorderBottom": "0px",
+    "bottomBorderTop": "1px"
+  },
+  {
+    "page": "surgeree",
+    "vp": "360x800",
+    "file": "docs/reviews/screenshots/footer-fix/surgeree-360x800.png",
+    "overflow": false,
+    "hasCompany": false,
+    "gridBorderBottom": "0px",
+    "bottomBorderTop": "1px"
+  }
+]
