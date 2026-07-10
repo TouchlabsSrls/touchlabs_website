@@ -86,6 +86,7 @@
 
         <div class="contact__grid">
           <div class="contact__content reveal">
+            <p class="contact__text contact__text--reassure">Ogni richiesta viene letta direttamente dal nostro team. Di norma rispondiamo entro un giorno lavorativo.</p>
             <ul class="contact-details">
               <li class="contact-details__item">
                 <span class="contact-details__label">Email</span>
@@ -96,7 +97,34 @@
                 <span class="contact-details__value">Via Capo di Lucca 12, Bologna</span>
               </li>
             </ul>
-            <p class="contact__text contact__text--reassure">Ogni richiesta viene letta direttamente dal nostro team. Di norma rispondiamo entro un giorno lavorativo.</p>
+
+            <div class="contact-map-preview">
+              <a
+                href="https://www.google.com/maps/search/?api=1&amp;query=Via+Capo+di+Lucca+12,+40126+Bologna,+Italy"
+                class="contact-map-preview__card"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Apri la sede Touchlabs su Google Maps"
+              >
+                <img
+                  src="/assets/img/contact/map-touchlabs-bologna.webp"
+                  alt=""
+                  class="contact-map-preview__img"
+                  width="640"
+                  height="400"
+                  decoding="async"
+                />
+                <span class="contact-map-preview__overlay" aria-hidden="true"></span>
+                <span class="contact-map-preview__label">Touchlabs · Bologna</span>
+              </a>
+              <a
+                href="https://www.google.com/maps/search/?api=1&amp;query=Via+Capo+di+Lucca+12,+40126+Bologna,+Italy"
+                class="contact-map-preview__link link-arrow"
+                target="_blank"
+                rel="noopener noreferrer"
+              >Apri in Google Maps</a>
+            </div>
+
             <ul class="contact-assurances" aria-label="Cosa puoi aspettarti">
               <li class="contact-assurances__item">
                 <span class="contact-assurances__check" aria-hidden="true">✓</span>
@@ -257,31 +285,6 @@
             </li>
           </ol>
         </div>
-      </div>
-    </section>
-
-    <!-- Mappa -->
-    <section class="section section--white contact-map-strip" aria-labelledby="map-title">
-      <div class="container contact-map-strip__inner reveal">
-        <h2 id="map-title" class="contact-map-strip__title">Dove siamo</h2>
-        <div
-          class="contact-map__embed contact-map-strip__embed"
-          data-map-lazy
-          data-map-src="https://maps.google.com/maps?q=Via+Capo+di+Lucca+12,+40126+Bologna,+Italy&amp;hl=it&amp;z=16&amp;output=embed"
-          data-map-title="Mappa — Via Capo di Lucca 12, Bologna"
-          aria-label="Mappa sede Touchlabs"
-        >
-          <div class="contact-map__placeholder" data-map-trigger>
-            <p class="contact-map__address">Via Capo di Lucca 12<br />40126 Bologna (BO), Italia</p>
-            <button type="button" class="btn btn--secondary btn--sm">Mostra mappa</button>
-          </div>
-        </div>
-        <a
-          href="https://www.google.com/maps/search/?api=1&amp;query=Via+Capo+di+Lucca+12,+40126+Bologna,+Italy"
-          class="link-arrow contact-map-strip__link"
-          target="_blank"
-          rel="noopener noreferrer"
-        >Apri in Google Maps</a>
       </div>
     </section>
 

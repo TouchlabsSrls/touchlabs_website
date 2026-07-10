@@ -56,6 +56,7 @@
     );
 
     document.querySelectorAll('.reveal, .animate-in').forEach(function (el) {
+      if (el.closest('.portfolio-reveal')) return;
       revealObserver.observe(el);
     });
 
@@ -318,7 +319,66 @@
 
   initVideoBreathers();
 
+  /* --- Portfolio project scroll reveal --- */
+  function initPortfolioReveal() {
+    const blocks = document.querySelectorAll('.portfolio-reveal');
+    if (!blocks.length) return;
+
+    if (prefersReducedMotion || !('IntersectionObserver' in window)) {
+      blocks.forEach(function (el) {
+        el.classList.add('is-visible');
+      });
+      return;
+    }
+
+    const portfolioObserver = new IntersectionObserver(
+      function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('is-visible');
+            portfolioObserver.unobserve(entry.target);
+          }
+        });
+      },
+      { threshold: 0.15, rootMargin: '0px 0px -6% 0px' }
+    );
+
+    blocks.forEach(function (el) {
+      portfolioObserver.observe(el);
+    });
+  }
+
+  initPortfolioReveal();
+
   /* --- Portfolio showcase videos: viewport autoplay, mobile tap, save-data --- */
+  function setupPortfolioVideoLayer(wrapper, video) {
+    const posterSrc = video.getAttribute('poster');
+    if (posterSrc && !wrapper.querySelector('.spatial-case-video__poster')) {
+      const posterImg = document.createElement('img');
+      posterImg.className = 'spatial-case-video__poster';
+      posterImg.src = posterSrc;
+      posterImg.alt = '';
+      posterImg.setAttribute('aria-hidden', 'true');
+      posterImg.decoding = 'async';
+      wrapper.insertBefore(posterImg, video);
+    }
+
+    function markReady() {
+      video.classList.add('is-ready');
+    }
+
+    if (video.readyState >= 2) {
+      markReady();
+    } else {
+      video.addEventListener('loadeddata', markReady, { once: true });
+      video.addEventListener('canplay', markReady, { once: true });
+    }
+
+    video.addEventListener('error', function () {
+      video.classList.remove('is-ready');
+    });
+  }
+
   function initPortfolioVideos() {
     const wrappers = document.querySelectorAll('[data-portfolio-video]');
     if (!wrappers.length) return;
@@ -374,6 +434,7 @@
       const video = wrapper.querySelector('video');
       if (!video) return;
 
+      setupPortfolioVideoLayer(wrapper, video);
       video.removeAttribute('autoplay');
 
       if (!allowAutoplay) {
