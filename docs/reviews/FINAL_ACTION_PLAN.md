@@ -39,7 +39,10 @@ Queste attività restano **obbligatorie prima del go-live**. Non sono complete.
 | P1-14 | REDIRECT_MAP | ✅ | Solo redirect verificato documentato |
 | V-001 | Overflow portfolio mobile | ✅ | `style.css` — min-height unset + contain grid |
 | V-016 | Icona play mobile portfolio | ✅ | `.portfolio-video-play` in `main.js` + CSS |
+<<<<<<< HEAD
 | — | Footer globale (2 livelli) | ✅ | Blocco company rimosso; 18 pagine allineate |
+=======
+>>>>>>> f40d317ea2cb46836b3a791d739c98faee88bece
 
 **Smoke test:** [P1_SMOKE_TEST.md](./P1_SMOKE_TEST.md)
 
