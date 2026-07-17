@@ -134,53 +134,43 @@
       <div class="container page-hero__inner">
         <p class="eyebrow animate-in">Portfolio · Bologna</p>
         <h1 id="hero-title" class="page-hero__title animate-in">Progetti reali, partiti da problemi concreti</h1>
-        <p class="page-hero__subtitle animate-in">Sei case study in sintesi, più uno showcase video. Settore, beneficio e pilastro Touchlabs — il dettaglio nelle pagine dedicate.</p>
-        <a href="#surgeree" class="btn btn--primary animate-in">Scorri i progetti</a>
+        <p class="page-hero__subtitle animate-in">Progetti reali in cui Software Custom, Spatial Computing, AI e Digital Experience si combinano. Filtra per area o esplora tutto il Portfolio.</p>
       </div>
     </section>
 
-    <!-- Panoramica visiva (poster statico — lo showreel completo è in Home) -->
-    <section class="section section--light section-intro section-intro--tight portfolio-showreel" aria-labelledby="showreel-title">
+    <!-- Filtri per area -->
+    <section class="section section--white portfolio-filters-section" aria-labelledby="portfolio-filter-heading" id="portfolio-projects">
       <div class="container">
-        <div class="portfolio-showreel__inner reveal">
-          <header class="portfolio-showreel__header">
-            <h2 id="showreel-title" class="portfolio-showreel__title">Uno sguardo ai nostri progetti</h2>
-            <p class="portfolio-showreel__desc">Dalle esperienze immersive ai configuratori 3D, ogni progetto nasce da una sfida reale e diventa uno strumento concreto.</p>
-          </header>
-          <figure class="portfolio-showreel__poster">
-            <img
-              src="/assets/img/company/touchlabs-showreel-poster.jpg"
-              alt="Anteprima progetti Touchlabs — showreel disponibile nella home"
-              width="1920"
-              height="1080"
-              loading="lazy"
-              decoding="async"
-            />
-          </figure>
-        </div>
+        <header class="portfolio-filters__intro">
+          <h2 id="portfolio-filter-heading" class="visually-hidden">Filtra i progetti</h2>
+          <p class="portfolio-filters__label">Filtra per area</p>
+          <p class="portfolio-filters__status" id="portfolio-filter-status" hidden></p>
+        </header>
+        <nav class="portfolio-filters" aria-label="Filtra per area Touchlabs" data-portfolio-filters>
+          <a href="/portfolio.html" class="portfolio-filters__chip is-active" data-filter="all" aria-current="true">Tutti</a>
+          <a href="/portfolio.html?area=software-custom" class="portfolio-filters__chip" data-filter="software-custom">Software Custom</a>
+          <a href="/portfolio.html?area=spatial-computing" class="portfolio-filters__chip" data-filter="spatial-computing">Spatial Computing</a>
+          <a href="/portfolio.html?area=ai-applicata" class="portfolio-filters__chip" data-filter="ai-applicata">AI Applicata</a>
+          <a href="/portfolio.html?area=digital-experience" class="portfolio-filters__chip" data-filter="digital-experience">Digital Experience</a>
+        </nav>
       </div>
     </section>
 
-    <div class="portfolio-showcase-list">
+    <div class="portfolio-showcase-list" data-portfolio-list>
 
       <!-- 1. Surgeree -->
-      <article class="portfolio-showcase section section--white portfolio-reveal" id="surgeree" aria-labelledby="surgeree-title">
+      <article class="portfolio-showcase section section--white portfolio-reveal" id="surgeree" data-areas="spatial-computing ai-applicata software-custom" aria-labelledby="surgeree-title">
         <div class="container">
           <div class="portfolio-showcase__grid">
             <div class="portfolio-showcase__content portfolio-reveal__content">
-              <p class="portfolio-showcase__sector">Medicale</p>
-              <h2 id="surgeree-title" class="portfolio-showcase__title">Formazione medicale immersiva e supporto chirurgico avanzato</h2>
               <p class="portfolio-showcase__name">Surgeree</p>
+              <p class="portfolio-showcase__area">Spatial Computing</p>
+              <h2 id="surgeree-title" class="portfolio-showcase__title">Formazione medicale immersiva e supporto chirurgico</h2>
               <p class="portfolio-showcase__desc">Integra imaging, modelli 3D e AI nel flusso chirurgico con visori immersivi. Formazione più efficace e supporto in sala senza perdere il focus sul paziente.</p>
-              <ul class="portfolio-showcase__pillars" aria-label="Pilastri Touchlabs">
-                <li class="portfolio-showcase__pillar">Spatial Computing</li>
-                <li class="portfolio-showcase__pillar">Artificial Intelligence</li>
-              </ul>
-              <ul class="portfolio-showcase__subtags" aria-label="Tecnologie e caratteristiche">
-                <li>Apple Vision Pro</li>
+              <ul class="portfolio-showcase__subtags" aria-label="Dettagli">
+                <li>Medicale</li>
                 <li>XR</li>
-                <li>DICOM</li>
-                <li>Training immersivo</li>
+                <li>Formazione</li>
               </ul>
               <a href="/surgeree.html" class="link-arrow portfolio-showcase__cta">Leggi il case study</a>
             </div>
@@ -207,24 +197,18 @@
       </article>
 
       <!-- 2. Scattolini S.p.A. -->
-      <article class="portfolio-showcase section section--light portfolio-reveal" id="scattolini" aria-labelledby="scattolini-title">
+      <article class="portfolio-showcase section section--light portfolio-reveal" id="scattolini" data-areas="software-custom digital-experience" aria-labelledby="scattolini-title">
         <div class="container">
           <div class="portfolio-showcase__grid portfolio-showcase__grid--reverse">
             <div class="portfolio-showcase__content portfolio-reveal__content">
-              <p class="portfolio-showcase__sector">Industria</p>
-              <h2 id="scattolini-title" class="portfolio-showcase__title">Gestionale web integrato con SAP e configuratore 3D realtime</h2>
               <p class="portfolio-showcase__name">Scattolini S.p.A.</p>
+              <p class="portfolio-showcase__area">Software Custom</p>
+              <h2 id="scattolini-title" class="portfolio-showcase__title">Gestionale web integrato con SAP e configuratore 3D</h2>
               <p class="portfolio-showcase__desc">Configuratore di allestimenti nel browser, collegato a SAP per clienti, listini, preventivi e ordini. Ricambi, trasporto e montaggio calcolati per area geografica.</p>
-              <ul class="portfolio-showcase__pillars" aria-label="Pilastri Touchlabs">
-                <li class="portfolio-showcase__pillar">Software Engineering</li>
-                <li class="portfolio-showcase__pillar">Digital Experience</li>
-              </ul>
-              <ul class="portfolio-showcase__subtags" aria-label="Tecnologie e caratteristiche">
+              <ul class="portfolio-showcase__subtags" aria-label="Dettagli">
                 <li>SAP</li>
-                <li>Three.js</li>
-                <li>ERP</li>
                 <li>Configuratore 3D</li>
-                <li>Web platform</li>
+                <li>Three.js</li>
               </ul>
               <a href="/scattolini.html" class="link-arrow portfolio-showcase__cta">Leggi il case study</a>
             </div>
@@ -247,23 +231,17 @@
       </article>
 
       <!-- 3. Luxury Living Group -->
-      <article class="portfolio-showcase section section--light portfolio-reveal" id="luxury-living-group" aria-labelledby="llg-title">
+      <article class="portfolio-showcase section section--light portfolio-reveal" id="luxury-living-group" data-areas="digital-experience software-custom" aria-labelledby="llg-title">
         <div class="container">
           <div class="portfolio-showcase__grid">
             <div class="portfolio-showcase__content portfolio-reveal__content">
-              <p class="portfolio-showcase__sector">Luxury Living</p>
-              <h2 id="llg-title" class="portfolio-showcase__title">Configuratore 3D per il settore Luxury Living</h2>
               <p class="portfolio-showcase__name">Luxury Living Group</p>
-              <p class="portfolio-showcase__desc">Una piattaforma digitale progettata per valorizzare il processo di configurazione di arredi di alta gamma, offrendo un'esperienza intuitiva, elegante e coerente con il posizionamento dei brand del gruppo.</p>
-              <ul class="portfolio-showcase__pillars" aria-label="Pilastri Touchlabs">
-                <li class="portfolio-showcase__pillar">Digital Experience</li>
-                <li class="portfolio-showcase__pillar">Software Engineering</li>
-              </ul>
-              <ul class="portfolio-showcase__subtags" aria-label="Tecnologie e caratteristiche">
+              <p class="portfolio-showcase__area">Digital Experience</p>
+              <h2 id="llg-title" class="portfolio-showcase__title">Configuratore 3D per arredi di alta gamma</h2>
+              <p class="portfolio-showcase__desc">Piattaforma digitale per configurare arredi luxury in modo intuitivo, elegante e coerente con il posizionamento dei brand del gruppo.</p>
+              <ul class="portfolio-showcase__subtags" aria-label="Dettagli">
                 <li>Configuratore 3D</li>
                 <li>Luxury</li>
-                <li>Web Platform</li>
-                <li>UX/UI</li>
                 <li>Three.js</li>
               </ul>
               <a href="/luxury-living-group.html" class="link-arrow portfolio-showcase__cta">Leggi il case study</a>
@@ -288,22 +266,17 @@
       </article>
 
       <!-- 4. Nottetempo -->
-      <article class="portfolio-showcase section section--white portfolio-reveal" id="nottetempo" aria-labelledby="nottetempo-title">
+      <article class="portfolio-showcase section section--white portfolio-reveal" id="nottetempo" data-areas="spatial-computing digital-experience" aria-labelledby="nottetempo-title">
         <div class="container">
           <div class="portfolio-showcase__grid">
             <div class="portfolio-showcase__content portfolio-reveal__content">
-              <p class="portfolio-showcase__sector">Cultura / Eventi</p>
-              <h2 id="nottetempo-title" class="portfolio-showcase__title">Esperienza teatrale immersiva in realtà virtuale</h2>
               <p class="portfolio-showcase__name">Nottetempo</p>
-              <p class="portfolio-showcase__desc">Spettacolo teatrale in VR: video stereoscopico, animazioni 3D e ambienti virtuali ispirati al surrealismo di Remedios Varo. Un racconto immersivo oltre il palco.</p>
-              <ul class="portfolio-showcase__pillars" aria-label="Pilastri Touchlabs">
-                <li class="portfolio-showcase__pillar">Spatial Computing</li>
-                <li class="portfolio-showcase__pillar">Digital Experience</li>
-              </ul>
-              <ul class="portfolio-showcase__subtags" aria-label="Tecnologie e caratteristiche">
+              <p class="portfolio-showcase__area">Spatial Computing</p>
+              <h2 id="nottetempo-title" class="portfolio-showcase__title">Esperienza teatrale immersiva in realtà virtuale</h2>
+              <p class="portfolio-showcase__desc">Spettacolo teatrale in VR: video stereoscopico, animazioni 3D e ambienti virtuali ispirati al surrealismo di Remedios Varo.</p>
+              <ul class="portfolio-showcase__subtags" aria-label="Dettagli">
                 <li>VR</li>
                 <li>Teatro</li>
-                <li>Esperienza immersiva</li>
                 <li>Video 360</li>
               </ul>
               <a href="/nottetempo.html" class="link-arrow portfolio-showcase__cta">Leggi il case study</a>
@@ -328,22 +301,18 @@
       </article>
 
       <!-- 5. Il Labirinto -->
-      <article class="portfolio-showcase section section--light portfolio-reveal" id="labirinto" aria-labelledby="labirinto-title">
+      <article class="portfolio-showcase section section--light portfolio-reveal" id="labirinto" data-areas="spatial-computing digital-experience" aria-labelledby="labirinto-title">
         <div class="container">
           <div class="portfolio-showcase__grid portfolio-showcase__grid--reverse">
             <div class="portfolio-showcase__content portfolio-reveal__content">
-              <p class="portfolio-showcase__sector">Eventi / Entertainment</p>
-              <h2 id="labirinto-title" class="portfolio-showcase__title">Esperienza interattiva immersiva per eventi e gamification</h2>
               <p class="portfolio-showcase__name">Il Labirinto</p>
-              <p class="portfolio-showcase__desc">Labirinto virtuale su Meta Quest con quattordici storie sull'adolescenza da scoprire al proprio ritmo. Prodotto con il Teatro dell'Argine.</p>
-              <ul class="portfolio-showcase__pillars" aria-label="Pilastri Touchlabs">
-                <li class="portfolio-showcase__pillar">Spatial Computing</li>
-                <li class="portfolio-showcase__pillar">Digital Experience</li>
-              </ul>
-              <ul class="portfolio-showcase__subtags" aria-label="Tecnologie e caratteristiche">
+              <p class="portfolio-showcase__area">Spatial Computing</p>
+              <h2 id="labirinto-title" class="portfolio-showcase__title">Esperienza VR interattiva per eventi e gamification</h2>
+              <p class="portfolio-showcase__desc">Labirinto virtuale su Meta Quest con quattordici storie sull'adolescenza. Prodotto con il Teatro dell'Argine.</p>
+              <ul class="portfolio-showcase__subtags" aria-label="Dettagli">
                 <li>VR</li>
                 <li>Gamification</li>
-                <li>Esperienza interattiva</li>
+                <li>Meta Quest</li>
               </ul>
               <a href="/il-labirinto.html" class="link-arrow portfolio-showcase__cta">Leggi il case study</a>
             </div>
@@ -366,23 +335,17 @@
       </article>
 
       <!-- 6. b-r1ng -->
-      <article class="portfolio-showcase section section--white portfolio-reveal" id="bring" aria-labelledby="bring-title">
+      <article class="portfolio-showcase section section--white portfolio-reveal" id="bring" data-areas="spatial-computing digital-experience software-custom" aria-labelledby="bring-title">
         <div class="container">
           <div class="portfolio-showcase__grid">
             <div class="portfolio-showcase__content portfolio-reveal__content">
-              <p class="portfolio-showcase__sector">Retail / Brand experience</p>
-              <h2 id="bring-title" class="portfolio-showcase__title">Hardware intelligente per esperienze digitali e realtà aumentata</h2>
               <p class="portfolio-showcase__name">b-r1ng®</p>
-              <p class="portfolio-showcase__desc">Ecosistema con bracciale NFC, app mobile e contenuti AR: un oggetto fisico che apre esperienze digitali personalizzate in fiera, retail ed eventi.</p>
-              <ul class="portfolio-showcase__pillars" aria-label="Pilastri Touchlabs">
-                <li class="portfolio-showcase__pillar">Spatial Computing</li>
-                <li class="portfolio-showcase__pillar">Digital Experience</li>
-              </ul>
-              <ul class="portfolio-showcase__subtags" aria-label="Tecnologie e caratteristiche">
+              <p class="portfolio-showcase__area">Spatial Computing</p>
+              <h2 id="bring-title" class="portfolio-showcase__title">Hardware NFC, app mobile e realtà aumentata</h2>
+              <p class="portfolio-showcase__desc">Ecosistema con bracciale NFC, app e contenuti AR: un oggetto fisico che apre esperienze digitali personalizzate in fiera, retail ed eventi.</p>
+              <ul class="portfolio-showcase__subtags" aria-label="Dettagli">
                 <li>NFC</li>
                 <li>AR</li>
-                <li>Unity</li>
-                <li>Mobile</li>
                 <li>Hardware</li>
               </ul>
               <a href="/br1ng.html" class="link-arrow portfolio-showcase__cta">Leggi il case study</a>
@@ -407,25 +370,20 @@
       </article>
 
       <!-- Showcase: ITM Monoblock (non case study) -->
-      <article class="portfolio-showcase portfolio-showcase--compact section section--light portfolio-reveal" id="itm-monoblock" aria-labelledby="itm-title">
+      <article class="portfolio-showcase portfolio-showcase--compact section section--light portfolio-reveal" id="itm-monoblock" data-areas="digital-experience" aria-labelledby="itm-title">
         <div class="container">
           <div class="portfolio-showcase__grid portfolio-showcase__grid--reverse">
             <div class="portfolio-showcase__content portfolio-reveal__content">
-              <p class="portfolio-showcase__sector">Industria · Showcase</p>
-              <h2 id="itm-title" class="portfolio-showcase__title">Video CGI per presentazione prodotto industriale</h2>
               <p class="portfolio-showcase__name">ITM Monoblock</p>
-              <p class="portfolio-showcase__desc">Un video 3D di prodotto pensato per presentare in modo chiaro, dinamico e coinvolgente le caratteristiche tecniche di un prodotto industriale complesso.</p>
-              <ul class="portfolio-showcase__pillars" aria-label="Pilastri Touchlabs">
-                <li class="portfolio-showcase__pillar">Digital Experience</li>
-              </ul>
-              <ul class="portfolio-showcase__subtags" aria-label="Tecnologie e caratteristiche">
+              <p class="portfolio-showcase__area">Digital Experience</p>
+              <h2 id="itm-title" class="portfolio-showcase__title">Video CGI per presentazione prodotto industriale</h2>
+              <p class="portfolio-showcase__desc">Video 3D di prodotto per presentare in modo chiaro e dinamico le caratteristiche tecniche di un monoblocco industriale complesso.</p>
+              <ul class="portfolio-showcase__subtags" aria-label="Dettagli">
                 <li>CGI</li>
-                <li>Video 3D</li>
                 <li>Industria</li>
-                <li>Presentazione prodotto</li>
-                <li>Fiere ed eventi</li>
+                <li>Fiere</li>
               </ul>
-              <a href="/digital-experience.html#itm-monoblock" class="link-arrow portfolio-showcase__cta">Scopri il progetto</a>
+              <a href="#itm-monoblock-video" class="link-arrow portfolio-showcase__cta">Guarda il progetto</a>
             </div>
             <div class="portfolio-showcase__visual portfolio-reveal__visual" id="itm-monoblock-video">
               <div class="spatial-case-video portfolio-showcase__video" data-portfolio-video>
@@ -451,39 +409,6 @@
 
     </div>
 
-    <!-- Settori -->
-    <section class="section section--light portfolio-sectors" aria-labelledby="sectors-title">
-      <div class="container">
-        <header class="section-header section-header--center reveal">
-          <p class="eyebrow">Settori</p>
-          <h2 id="sectors-title" class="section-header__title">Dove abbiamo già lavorato</h2>
-        </header>
-
-        <div class="grid grid--4 portfolio-sectors__grid">
-          <article class="portfolio-card portfolio-card--compact reveal">
-            <p class="portfolio-card__sector">Medicale</p>
-            <h3 class="portfolio-card__title">Formazione e precisione</h3>
-            <p class="portfolio-card__desc">Spatial Computing e AI per contesti dove sicurezza e chiarezza sono prioritarie.</p>
-          </article>
-          <article class="portfolio-card portfolio-card--compact reveal">
-            <p class="portfolio-card__sector">Industria</p>
-            <h3 class="portfolio-card__title">Prodotti complessi</h3>
-            <p class="portfolio-card__desc">Software su misura, SAP e configuratori 3D per vendita e produzione.</p>
-          </article>
-          <article class="portfolio-card portfolio-card--compact reveal">
-            <p class="portfolio-card__sector">Cultura / Eventi</p>
-            <h3 class="portfolio-card__title">Racconti immersivi</h3>
-            <p class="portfolio-card__desc">Teatro, VR e installazioni che coinvolgono lo spettatore in prima persona.</p>
-          </article>
-          <article class="portfolio-card portfolio-card--compact reveal">
-            <p class="portfolio-card__sector">Retail / Brand</p>
-            <h3 class="portfolio-card__title">Fisico e digitale</h3>
-            <p class="portfolio-card__desc">Esperienze che uniscono prodotto, hardware e contenuto in pochi secondi.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
     <!-- CTA finale -->
     <section class="section section--dark cta-section" aria-labelledby="cta-title">
       <div class="cta-section__bg" aria-hidden="true"></div>
@@ -492,7 +417,7 @@
         <p class="cta-section__desc">Raccontacelo. Iniziamo sempre da una conversazione.</p>
         <div class="cta-section__actions">
           <a href="/contatti.html" class="btn btn--primary">Parliamo del tuo progetto</a>
-          <a href="/servizi.html" class="btn btn--secondary">Scopri i nostri servizi</a>
+          <a href="/servizi.html" class="btn btn--secondary">Scopri tutti i servizi</a>
         </div>
       </div>
     </section>

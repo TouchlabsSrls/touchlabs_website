@@ -496,4 +496,93 @@
   }
 
   initPortfolioVideos();
+
+  /* --- Portfolio area filters --- */
+  function initPortfolioFilters() {
+    const nav = document.querySelector('[data-portfolio-filters]');
+    const list = document.querySelector('[data-portfolio-list]');
+    if (!nav || !list) return;
+
+    const chips = nav.querySelectorAll('[data-filter]');
+    const items = list.querySelectorAll('[data-areas]');
+    const statusEl = document.getElementById('portfolio-filter-status');
+    const areaLabels = {
+      'software-custom': 'Software Custom',
+      'spatial-computing': 'Spatial Computing',
+      'ai-applicata': 'AI Applicata',
+      'digital-experience': 'Digital Experience',
+    };
+    const validAreas = Object.keys(areaLabels);
+
+    let emptyEl = list.querySelector('.portfolio-filter-empty');
+    if (!emptyEl) {
+      emptyEl = document.createElement('p');
+      emptyEl.className = 'portfolio-filter-empty';
+      emptyEl.setAttribute('role', 'status');
+      emptyEl.textContent = 'Nessun progetto in questa area al momento.';
+      list.appendChild(emptyEl);
+    }
+
+    function readAreaFromUrl() {
+      const params = new URLSearchParams(window.location.search);
+      const area = (params.get('area') || '').trim().toLowerCase();
+      return validAreas.indexOf(area) !== -1 ? area : 'all';
+    }
+
+    function applyFilter(area, pushUrl) {
+      const filter = validAreas.indexOf(area) !== -1 ? area : 'all';
+      let visible = 0;
+
+      items.forEach(function (item) {
+        const areas = (item.getAttribute('data-areas') || '').split(/\s+/);
+        const match = filter === 'all' || areas.indexOf(filter) !== -1;
+        item.classList.toggle('is-filtered-out', !match);
+        if (match) visible += 1;
+      });
+
+      chips.forEach(function (chip) {
+        const active = chip.getAttribute('data-filter') === filter;
+        chip.classList.toggle('is-active', active);
+        if (active) {
+          chip.setAttribute('aria-current', 'true');
+        } else {
+          chip.removeAttribute('aria-current');
+        }
+      });
+
+      if (statusEl) {
+        if (filter === 'all') {
+          statusEl.hidden = true;
+          statusEl.textContent = '';
+        } else {
+          statusEl.hidden = false;
+          statusEl.textContent = 'Progetti collegati a ' + areaLabels[filter];
+        }
+      }
+
+      emptyEl.classList.toggle('is-visible', visible === 0);
+
+      if (pushUrl) {
+        const url = filter === 'all' ? '/portfolio.html' : '/portfolio.html?area=' + filter;
+        if (window.location.pathname + window.location.search !== url) {
+          history.pushState({ area: filter }, '', url);
+        }
+      }
+    }
+
+    chips.forEach(function (chip) {
+      chip.addEventListener('click', function (event) {
+        event.preventDefault();
+        applyFilter(chip.getAttribute('data-filter') || 'all', true);
+      });
+    });
+
+    window.addEventListener('popstate', function () {
+      applyFilter(readAreaFromUrl(), false);
+    });
+
+    applyFilter(readAreaFromUrl(), false);
+  }
+
+  initPortfolioFilters();
 })();

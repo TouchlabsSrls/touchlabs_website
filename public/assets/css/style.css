@@ -299,7 +299,17 @@ button {
   border-color: var(--color-border-light);
 }
 
+.section--white .btn--secondary {
+  color: var(--color-text-dark);
+  border-color: var(--color-border-light);
+}
+
 .section--light .btn--secondary:hover {
+  border-color: var(--color-accent);
+  background: rgba(20, 158, 202, 0.04);
+}
+
+.section--white .btn--secondary:hover {
   border-color: var(--color-accent);
   background: rgba(20, 158, 202, 0.04);
 }
@@ -2721,6 +2731,14 @@ button {
   margin-top: var(--cta-actions-gap);
 }
 
+@media (min-width: 480px) {
+  .service-gateway__actions {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+}
+
 .service-gateway__secondary {
   font-size: 0.9375rem;
 }
@@ -3143,10 +3161,131 @@ a.service-nav__item:hover {
 }
 
 .portfolio-showcase__name {
-  font-size: 1rem;
+  font-size: 0.875rem;
   font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
   color: var(--color-text-muted);
+  margin-bottom: var(--space-1);
+}
+
+.portfolio-showcase__area {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: var(--color-accent);
+  margin-bottom: var(--space-2);
+}
+
+/* Portfolio area filters */
+.portfolio-filters-section {
+  padding-block: var(--space-4) var(--space-3);
+}
+
+.portfolio-filters-section .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.portfolio-filters__intro {
   margin-bottom: var(--space-3);
+  text-align: center;
+  width: 100%;
+}
+
+.portfolio-filters__label {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+  margin: 0 0 var(--space-2);
+}
+
+.portfolio-filters__status {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--color-text-dark);
+  margin: 0;
+}
+
+.portfolio-filters {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: var(--space-2);
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  padding-bottom: 2px;
+  width: 100%;
+  max-width: 100%;
+}
+
+.portfolio-filters::-webkit-scrollbar {
+  display: none;
+}
+
+.portfolio-filters__chip {
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2.5rem;
+  padding: 0.5rem 1.1rem;
+  border-radius: 999px;
+  border: 1px solid var(--color-border-light);
+  background: var(--color-bg-light);
+  color: var(--color-text-muted);
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.2;
+  text-decoration: none;
+  white-space: nowrap;
+  transition:
+    color var(--duration-fast),
+    background var(--duration-fast),
+    border-color var(--duration-fast),
+    box-shadow var(--duration-fast);
+}
+
+.portfolio-filters__chip:hover {
+  color: var(--color-text-dark);
+  border-color: rgba(20, 158, 202, 0.35);
+}
+
+.portfolio-filters__chip:focus-visible {
+  outline: 2px solid var(--color-accent-light);
+  outline-offset: 3px;
+}
+
+.portfolio-filters__chip.is-active {
+  color: var(--color-white);
+  background: var(--color-bg-secondary);
+  border-color: var(--color-bg-secondary);
+  box-shadow: 0 0 0 1px rgba(20, 158, 202, 0.35);
+}
+
+.portfolio-showcase.is-filtered-out {
+  display: none;
+}
+
+.portfolio-filter-empty {
+  display: none;
+  padding: var(--space-6) var(--container-pad);
+  text-align: center;
+  color: var(--color-text-muted);
+}
+
+.portfolio-filter-empty.is-visible {
+  display: block;
+}
+
+@media (min-width: 769px) {
+  .portfolio-filters {
+    flex-wrap: wrap;
+    overflow: visible;
+  }
 }
 
 .portfolio-showcase__desc {
@@ -3622,6 +3761,48 @@ a.service-nav__item:hover {
 /* --- Innovation Hub --- */
 .research-grid {
   margin-top: var(--space-6);
+}
+
+/* Service offer list — concrete deliverables */
+.offer-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-4) var(--space-5);
+  margin-top: var(--space-6);
+}
+
+.offer-item {
+  padding: var(--space-4);
+  border-left: 2px solid rgba(20, 158, 202, 0.45);
+  background: transparent;
+}
+
+.offer-item__title {
+  font-family: var(--font-display);
+  font-size: 1.0625rem;
+  font-weight: 600;
+  line-height: 1.35;
+  color: var(--color-text-dark);
+  margin-bottom: var(--space-1);
+}
+
+.offer-item__desc {
+  font-size: 0.9375rem;
+  line-height: 1.6;
+  color: var(--color-text-muted);
+  margin: 0;
+}
+
+.offer-section__cta {
+  margin-top: var(--space-6);
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .offer-grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-3);
+  }
 }
 
 .research-card {
