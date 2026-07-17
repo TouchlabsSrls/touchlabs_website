@@ -539,6 +539,19 @@
       return area || 'all';
     }
 
+    function updatePortfolioAlternation() {
+      items.forEach(function (item) {
+        item.classList.remove('is-alternate');
+      });
+
+      var visibleIndex = 0;
+      items.forEach(function (item) {
+        if (item.classList.contains('is-filtered-out') || item.hidden) return;
+        item.classList.toggle('is-alternate', visibleIndex % 2 === 1);
+        visibleIndex += 1;
+      });
+    }
+
     function applyFilter(area, pushUrl) {
       const filter = validAreas.indexOf(area) !== -1 ? area : 'all';
       let visible = 0;
@@ -549,6 +562,8 @@
         item.classList.toggle('is-filtered-out', !match);
         if (match) visible += 1;
       });
+
+      updatePortfolioAlternation();
 
       chips.forEach(function (chip) {
         const active = chip.getAttribute('data-filter') === filter;

@@ -3100,6 +3100,17 @@ a.service-nav__item:hover {
 
 .portfolio-showcase {
   padding-block: calc(var(--space-8) * 0.88);
+  background: var(--color-white);
+  color: var(--color-text-dark);
+}
+
+/* No-JS fallback only — with JS, alternation is driven by .is-alternate */
+html:not(.js) .portfolio-showcase-list > .portfolio-showcase:nth-child(even) {
+  background: var(--color-bg-light);
+}
+
+.portfolio-showcase.is-alternate {
+  background: var(--color-bg-light);
 }
 
 .portfolio-showcase-list > .portfolio-showcase:first-child {
@@ -3156,7 +3167,7 @@ a.service-nav__item:hover {
   margin-bottom: var(--space-2);
 }
 
-.section--light .portfolio-showcase__title {
+.portfolio-showcase.is-alternate .portfolio-showcase__title {
   color: var(--color-text-dark);
 }
 
@@ -3330,7 +3341,7 @@ a.service-nav__item:hover {
   border: 1px solid var(--color-border-light);
 }
 
-.section--light .portfolio-showcase__pillar {
+.portfolio-showcase.is-alternate .portfolio-showcase__pillar {
   background: var(--color-bg);
 }
 
@@ -3491,13 +3502,13 @@ a.service-nav__item:hover {
     transform 720ms cubic-bezier(0.22, 1, 0.36, 1);
 }
 
-.js .portfolio-showcase-list > .portfolio-reveal:nth-child(odd):not(.is-visible) .portfolio-reveal__content,
-.js .portfolio-showcase-list > .portfolio-reveal:nth-child(odd):not(.is-visible) .portfolio-reveal__visual {
+.js .portfolio-showcase-list > .portfolio-reveal:not(.is-alternate):not(.is-visible) .portfolio-reveal__content,
+.js .portfolio-showcase-list > .portfolio-reveal:not(.is-alternate):not(.is-visible) .portfolio-reveal__visual {
   transform: translateY(24px) translateX(-18px);
 }
 
-.js .portfolio-showcase-list > .portfolio-reveal:nth-child(even):not(.is-visible) .portfolio-reveal__content,
-.js .portfolio-showcase-list > .portfolio-reveal:nth-child(even):not(.is-visible) .portfolio-reveal__visual {
+.js .portfolio-showcase-list > .portfolio-reveal.is-alternate:not(.is-visible) .portfolio-reveal__content,
+.js .portfolio-showcase-list > .portfolio-reveal.is-alternate:not(.is-visible) .portfolio-reveal__visual {
   transform: translateY(24px) translateX(18px);
 }
 
