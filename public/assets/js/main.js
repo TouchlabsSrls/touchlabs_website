@@ -507,12 +507,22 @@
     const items = list.querySelectorAll('[data-areas]');
     const statusEl = document.getElementById('portfolio-filter-status');
     const areaLabels = {
-      'software-custom': 'Software Custom',
       'spatial-computing': 'Spatial Computing',
-      'ai-applicata': 'AI Applicata',
+      'intelligenza-artificiale': 'Intelligenza Artificiale',
+      'software-engineering': 'Software Engineering',
       'digital-experience': 'Digital Experience',
     };
+    const areaAliases = {
+      'ai-applicata': 'intelligenza-artificiale',
+      'software-custom': 'software-engineering',
+    };
     const validAreas = Object.keys(areaLabels);
+
+    function normalizeArea(area) {
+      const slug = (area || '').trim().toLowerCase();
+      if (validAreas.indexOf(slug) !== -1) return slug;
+      return areaAliases[slug] || '';
+    }
 
     let emptyEl = list.querySelector('.portfolio-filter-empty');
     if (!emptyEl) {
@@ -525,8 +535,8 @@
 
     function readAreaFromUrl() {
       const params = new URLSearchParams(window.location.search);
-      const area = (params.get('area') || '').trim().toLowerCase();
-      return validAreas.indexOf(area) !== -1 ? area : 'all';
+      const area = normalizeArea(params.get('area'));
+      return area || 'all';
     }
 
     function applyFilter(area, pushUrl) {
@@ -582,6 +592,16 @@
     });
 
     applyFilter(readAreaFromUrl(), false);
+
+    const params = new URLSearchParams(window.location.search);
+    const rawArea = (params.get('area') || '').trim().toLowerCase();
+    if (rawArea && areaAliases[rawArea]) {
+      const canonical = normalizeArea(rawArea);
+      const canonicalUrl = '/portfolio.html?area=' + canonical;
+      if (window.location.pathname + window.location.search !== canonicalUrl) {
+        history.replaceState({ area: canonical }, '', canonicalUrl);
+      }
+    }
   }
 
   initPortfolioFilters();

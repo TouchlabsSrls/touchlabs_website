@@ -171,8 +171,10 @@ final class ContactHandler
         }
 
         $interestLabels = [
-            'software-custom' => 'Software custom',
-            'ai-applicata' => 'AI applicata',
+            'software-engineering' => 'Software Engineering',
+            'software-custom' => 'Software Engineering',
+            'intelligenza-artificiale' => 'Intelligenza Artificiale',
+            'ai-applicata' => 'Intelligenza Artificiale',
             'spatial-computing' => 'Spatial Computing',
             'digital-experience' => 'Digital Experience',
             'sito-piattaforma' => 'Sito / piattaforma web',
