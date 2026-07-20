@@ -508,7 +508,7 @@
     const statusEl = document.getElementById('portfolio-filter-status');
     const areaLabels = {
       'spatial-computing': 'Spatial Computing',
-      'intelligenza-artificiale': 'Intelligenza Artificiale',
+      'intelligenza-artificiale': 'Artificial Intelligence',
       'software-engineering': 'Software Engineering',
       'digital-experience': 'Digital Experience',
     };
